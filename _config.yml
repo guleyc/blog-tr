@@ -1,7 +1,7 @@
 # Site settings
-site: Cagatay Guley
-title: Cagatay Guley - A Mining Engineer
-keywords: mining, engineer, cagatay guley, cagatay, guley, mining engineer, mining engineering, mining industry, mining technology
+site: Çağatay Güley
+title: Çağatay Güley - Maden Mühendisi
+keywords: maden, mühendis, cagatay guley, cagatay, guley, mining engineer, mining engineering, mining industry, mining technology
 description: >-
   As a passionate mining engineer, I will unveil mineral riches and innovative solutions, taking us towards new horizons.
 lang: en-US
@@ -12,8 +12,8 @@ google_tag: GTM-T863VL7J
 
 # Author settings
 author:
-  name: Cagatay Guley
-  bio: "A Mining Engineer ⛏️ <br> Founder of @ore2b"
+  name: Çağatay Güley
+  bio: "Maden Mühendisi ⛏️ <br> @ore2b Kurucusu"
   picture: assets/images/profile.svg
   github: guleyc
   # twitter: 
@@ -21,11 +21,11 @@ author:
   # instagram: 
   # youtube: 
   linkedin: guleyc
-  email: cagatay@guley.com.au
+  email: cagatay@guley.com.tr
 
 
 # URL settings
-url: "https://guley.com.au"
+url: "https://guley.com.tr"
 baseurl: ""
 permalink: pretty
 repo: https://github.com/guleyc
@@ -50,7 +50,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
   - jekyll-relative-links
-  - jekyll-polyglot
 
 paginate: 3
 paginate_path: "/page/:num"
@@ -94,9 +93,3 @@ jekyll-archives:
   permalinks:
     tag: /tag/:name/
     category: /category/:name/
-
-polyglot:
-  languages: ["en", "tr", "de", "fr", "zh", "hi", "es", "ja", "ru"]
-  default_lang: "en"
-  exclude_from_localization: ["assets", "images", "css", "js", "sitemap"]
-  parallel_localization: false
