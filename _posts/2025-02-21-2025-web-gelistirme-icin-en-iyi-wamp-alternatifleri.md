@@ -5,6 +5,7 @@ author: 'Cagatay Guley'
 layout: post
 permalink: /2025-web-gelistirme-icin-en-iyi-wamp-alternatifleri/
 redirect_from:
+  - /best-wamp-alternatives-for-web-development-in-2025/
   - /best-wamp-alternatives-for-web-development-in-2025
 categories: [web]
 tags: [wamp, xampp, mamp, lamp, laragon, easyphp, openserver, web, geliştirme, apache, mysql, php, windows]
