@@ -1,10 +1,10 @@
 # Site settings
 site: Çağatay Güley
 title: Çağatay Güley - Maden Mühendisi
-keywords: maden, mühendis, cagatay guley, cagatay, guley, mining engineer, mining engineering, mining industry, mining technology
+keywords: maden mühendisi, maden mühendisliği, çağatay güley, madencilik, maden, mühendis, madencilik sektörü, madencilik teknolojileri, cagatay guley, çağatay, güley
 description: >-
-  As a passionate mining engineer, I will unveil mineral riches and innovative solutions, taking us towards new horizons.
-lang: en-US
+  Deneyimli bir maden mühendisi olarak, maden zenginliklerini gün yüzüne çıkarmayı ve yenilikçi çözümlerle yeni ufuklara taşımayı hedefliyorum.
+lang: tr-TR
 timezone:  Europe/Istanbul
 logo: assets/images/logo.svg
 google_tag: GTM-T863VL7J

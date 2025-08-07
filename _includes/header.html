@@ -106,16 +106,12 @@
         <link rel="apple-touch-icon" href="/assets/images/favicon.png">
 
         <!-- Canonical URLs and Language Alternatives -->
-        {% if page.lang == site.default_lang %}
         <link rel="canonical" href="https://guley.com.tr{{page.permalink}}" />
-        {% else %}
-        <link rel="canonical" href="https://guley.com.tr{{page.lang}}{{page.permalink}}" />
-        {% endif %}
         
         <!-- Default Language Link -->
-        <link rel="alternate" hreflang="{{site.default_lang}}" href="https://guley.com.tr{{page.permalink}}" />
-        <link rel="alternate" hreflang="x-default" href="https://guley.com.tr{{page.permalink}}" />
-        
+        <link rel="alternate" hreflang="tr-TR" href="https://guley.com.tr/" />
+        <link rel="alternate" hreflang="en-AU" href="https://guley.com.au/" />
+
         <!-- Alternative Language Links -->
         {% for lang in site.languages %}
         {% if lang == site.default_lang %}
