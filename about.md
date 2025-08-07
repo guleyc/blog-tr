@@ -1,14 +1,14 @@
 ---
 layout: page
-title: "About Me"
-permalink: /about/
+title: "Hakkımda"
+permalink: /hakkimda/
 author: Cagatay Guley
 ---
 
-I hold a degree in Mining Engineering from Istanbul Technical University and have over seven years of experience in mining operations as well as office-based technical work. I have worked in all stages of the mining value chain in which I contributed to exploration, planning, production, design, and in some instances even sales.
+İstanbul Teknik Üniversitesi Maden Mühendisliği bölümü mezunuyum. Madencilik operasyonları ve ofis ortamındaki teknik görevler alanında yedi yılı aşkın deneyime sahibim. Madencilik değer zincirinin arama, planlama, üretim ve tasarım gibi tüm aşamalarında görev aldım; bu süreçte zaman zaman satış faaliyetlerine de katkıda bulundum.
 
-My experience spans both open-pit and underground work. This includes participating in short and long-term mine planning, 3D mine design, as well as contributing to the design and construction of mineral processing facilities. I also improved my understanding of strategic decision making when I worked in production planning and team coordination in a publicly traded mining company.
+Deneyimim hem açık ocak hem de yeraltı madenciliğini kapsamaktadır. Bu süreçte kısa ve uzun vadeli maden planlaması ile 3 boyutlu maden tasarımı çalışmalarında yer aldım; ayrıca cevher zenginleştirme tesislerinin tasarım ve kurulumuna da katkı sağladım. Halka açık bir madencilik şirketinde üretim planlaması ve ekip koordinasyonu görevlerini üstlenerek stratejik karar alma konusundaki yetkinliğimi artırdım.
 
-Having worked in customer coordinating and ore selling, I have broadened my knowledge past engineering. The combination of technical and business knowledge serves me well because I can see how operations impact the business as a whole.
+Müşteri koordinasyonu ve cevher satışı alanlarında çalışarak mühendislik bilgimin ötesinde bir birikim edindim. Teknik ve ticari bilgiyi birleştirebilme yeteneğim, operasyonel kararların işletme bütününü nasıl etkilediğini görebilmemi sağlayarak bana önemli bir avantaj sunmaktadır.
 
-I love addressing hands-on technical challenges, streamlining processes, and enabling better team collaboration. I strive to make a positive impact whether it be at a worksite, on a computer, or in meetings.
+Sahadaki pratik teknik zorlukların üstesinden gelmeyi, süreçleri optimize etmeyi ve ekip işbirliğini güçlendirmeyi hedefliyorum. İster şantiyede, ister bilgisayar başında, isterse de toplantılarda olayım, çalıştığım her alanda pozitif bir etki yaratmaya gayret gösteririm.
