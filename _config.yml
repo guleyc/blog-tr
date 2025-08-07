@@ -1,6 +1,6 @@
 # Site settings
 site: Çağatay Güley
-title: Çağatay Güley - Maden Mühendisi
+title: Çağatay Güley - Bir Maden Mühendisi
 keywords: maden mühendisi, maden mühendisliği, çağatay güley, madencilik, maden, mühendis, madencilik sektörü, madencilik teknolojileri, cagatay guley, çağatay, güley
 description: >-
   Deneyimli bir maden mühendisi olarak, maden zenginliklerini gün yüzüne çıkarmayı ve yenilikçi çözümlerle yeni ufuklara taşımayı hedefliyorum.
@@ -13,7 +13,7 @@ google_tag: GTM-T863VL7J
 # Author settings
 author:
   name: Çağatay Güley
-  bio: "Maden Mühendisi ⛏️ <br> @ore2b Kurucusu"
+  bio: "Bir Maden Mühendisi ⛏️ <br> @ore2b Kurucusu"
   picture: assets/images/profile.svg
   github: guleyc
   # twitter: 
