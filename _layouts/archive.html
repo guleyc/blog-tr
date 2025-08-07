@@ -13,8 +13,8 @@
 		{%- assign page_description = page.description | default: page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape -%}
 		{%- assign page_url = page.url | absolute_url -%}
 		{%- assign page_image = page.image | default: site.logo | absolute_url -%}
-        <title>Posts Tagged with "{{ page.title | capitalize }}" - {{ site.title }}</title>
-		<meta name="description" content="Find all posts and articles on {{ site.title }} categorized under the '{{ page.title }}' tag.">
+        <title>Etiket: "{{ page.title | capitalize }}" - {{ site.title }}</title>
+		<meta name="description" content="{{ page.title }} etiketiyle kategorize edilmiş tüm gönderileri ve makaleleri bulun.">
 		<meta name="keywords" content="{% if page.tags and page.tags != empty %}{{ page.tags | join: ', ' }}{% else %}{{ site.keywords | join: ', ' }}{% endif %}">
         <meta name="author" content="{{ site.author.name }}">
 		<meta name="robots" content="index, follow">
@@ -29,12 +29,12 @@
         <meta property="og:site_name" content='"{{site.title}}"'>
         <meta property="og:type" content="{% if page.title %}article{% else %}website{% endif %}" />
         <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{page.url}}"/>
-        <meta property="og:title" content='Posts Tagged with "{{ page.title | capitalize }}" - {{ site.title }}' />
-        <meta property="og:description" content="Find all posts and articles on {{ site.title }} categorized under the '{{ page.title }}' tag." />
+        <meta property="og:title" content='Etiket: "{{ page.title | capitalize }}" - {{ site.title }}' />
+        <meta property="og:description" content="{{ page.title }} etiketiyle kategorize edilmiş tüm gönderileri ve makaleleri bulun." />
         <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/{% if page.image %}{{page.image}}{% else %}assets/images/favicon.png{% endif %}"/>
         <meta name="twitter:card" content="summary_large_image">
-        <meta property="twitter:title" content='Posts Tagged with "{{ page.title | capitalize }}" - {{ site.title }}' />
-        <meta property="twitter:description" content="Find all posts and articles on {{ site.title }} categorized under the '{{ page.title }}' tag." />
+        <meta property="twitter:title" content='Etiket: "{{ page.title | capitalize }}" - {{ site.title }}' />
+        <meta property="twitter:description" content="{{ page.title }} etiketiyle kategorize edilmiş tüm gönderileri ve makaleleri bulun." />
         <meta property="twitter:image" content="{{ site.url }}{{ site.baseurl }}/{% if page.image %}{{page.image}}{% else %}assets/images/favicon.png{% endif %}" />
 		<link rel="stylesheet" href="/assets/css/normalize.css?v={{ site.github.build_revision }}">
 		<link rel="stylesheet" href="/assets/css/highlight.css?v={{ site.github.build_revision }}">
