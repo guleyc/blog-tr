@@ -52,7 +52,7 @@ plugins:
   - jekyll-relative-links
 
 paginate: 3
-paginate_path: "/page/:num"
+paginate_path: "/sayfa/:num"
 
 collections:
   pages:
