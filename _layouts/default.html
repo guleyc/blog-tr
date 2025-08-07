@@ -1,0 +1,19 @@
+{% include header.html %}
+<div class="container">
+	<div class="profile">
+		<a href="{{ site.url }}"><img src="{{site.author.picture}}" class="profile-image" alt="{{ site.author.bio }}" data-echo="{{site.author.picture}}"></a>
+		<div class="profile-about">
+			{% include profile.html %}
+			<div class="header-controls">
+			{% include toggle.html %}
+			{% include search-ui.html %}
+			{% include lang-switcher.html %}
+			</div>
+		</div>
+	</div>
+	{{ content }}
+	<div class="footer">
+		<span>Engineered with precision, coded with <font color="red">♥</font></span>
+	</div>
+</div>
+{% include footer.html %}
