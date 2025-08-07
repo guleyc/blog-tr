@@ -107,7 +107,7 @@
 <div class="archive-container">
   
   <h1 class="archive-title">
-    Posts Tagged with: <span class="tag-name">"{{ page.title | capitalize }}"</span>
+    Etiket: <span class="tag-name">"{{ page.title | capitalize }}"</span>
   </h1>
 
   <div class="posts-list">
@@ -116,7 +116,7 @@
         <div class="post-title">
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
         </div>
-        <div class="post-meta">Published: {{ post.date | date: '%d.%m.%Y' }}</div>
+        <div class="post-meta">Yayın Tarihi: {{ post.date | date: '%d.%m.%Y' }}</div>
         <div class="post-excerpt">{{ post.excerpt | strip_html | truncate: 150 }}</div>
       </div>
     {% endfor %}
@@ -128,7 +128,7 @@
 
 </div>
 	<div class="footer">
-		<span>Engineered with precision, coded with <font color="red">♥</font></span>
+		<span>Hassasiyetle tasarlandı,  <font color="red">♥</font> kodlandı.</span>
 	</div>
 </div>
 {% include footer.html %}
