@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="page">
-<h1 class="page-title">Posts in "{{ page.category }}" Category</h1>
+<h1 class="page-title">"{{ page.category }}" Kategorisindeki Yazılar</h1>
 <div class="category-list">
   {% assign category_posts = site.categories[page.category] %}
   {% if category_posts %}
@@ -20,7 +20,7 @@ layout: default
       </article>
     {% endfor %}
   {% else %}
-    <p>No posts found in this category.</p>
+    <p>Bu kategoride herhangi bir yazı bulunamadı.</p>
   {% endif %}
 </div>
 </div>
