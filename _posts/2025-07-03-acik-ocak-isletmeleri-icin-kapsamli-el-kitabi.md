@@ -8,7 +8,7 @@ redirect_from:
   - /acik-ocak-isletmeleri-icin-kapsamli-el-kitabi
 categories: [maden]
 mathjax: true
-tags: [acikocak, maden, mühendis, el kitabı]
+tags: [acikocak, maden, muhendis, el kitabi]
 image: openpit.jpg
 ---
 
