@@ -5,7 +5,8 @@ author: 'Cagatay Guley'
 layout: post
 permalink: /jorc-kodu-arama-sondajindan-cevher-rezervi-beyanina/
 redirect_from:
-  - /jorc-kodu-arama-sondajindan-cevher-rezervi-beyanina
+  - /the-jorc-code-from-exploration-drilling-to-ore-reserve-declaration
+  - /the-jorc-code-from-exploration-drilling-to-ore-reserve-declaration
 categories: [maden]
 tags: [JORC, Kod, Arama, Sondaj, Cevher Rezervi, Beyan]
 image: jorc.jpg

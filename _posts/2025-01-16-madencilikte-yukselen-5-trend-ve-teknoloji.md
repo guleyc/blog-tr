@@ -5,7 +5,8 @@ author: 'Cagatay Guley'
 layout: post
 permalink: /madencilikte-yukselen-5-trend-ve-teknoloji/
 redirect_from:
-  - /madencilikte-yukselen-5-trend-ve-teknoloji
+  - /emerging-5-trends-and-technologies-in-mining-engineering/
+  - /emerging-5-trends-and-technologies-in-mining-engineering
 categories: [maden]
 tags: [madencilik, muhendis, dijital donusum, muhendislikten teknolojiye, uzaktan calisma, dijital beceriler, veri odakli kararlar]
 image: hardhat.jpg

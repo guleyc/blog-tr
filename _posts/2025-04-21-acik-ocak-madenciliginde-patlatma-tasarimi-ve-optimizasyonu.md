@@ -5,7 +5,8 @@ author: Cagatay Guley
 layout: post
 permalink: /acik-ocak-madenciliginde-patlatma-tasarimi-ve-optimizasyonu/
 redirect_from:
-  - /acik-ocak-madenciliginde-patlatma-tasarimi-ve-optimizasyonu
+  - /blast-design-and-optimization-in-open-pit-mining
+  - /blast-design-and-optimization-in-open-pit-mining/
 categories: [maden]
 tags: [patlatma, tasarim, acikocak, madencilik]
 image: blast.webp

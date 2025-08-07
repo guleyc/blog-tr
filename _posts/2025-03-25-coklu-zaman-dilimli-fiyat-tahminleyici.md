@@ -5,7 +5,8 @@ author: 'Cagatay Guley'
 layout: post
 permalink: /coklu-zaman-dilimli-fiyat-tahminleyici/
 redirect_from:
-  - /coklu-zaman-dilimli-fiyat-tahminleyici
+  - /multi-timeframe-price-predictor
+  - /multi-timeframe-price-predictor/
 categories: [muhendislik]
 tags: [fiyat, tahmin, indikator, binance, kripto]
 image: crypto-asset.png

@@ -5,7 +5,8 @@ author: 'Çağatay Güley'
 layout: post
 permalink: /acik-ocak-isletmeleri-icin-kapsamli-el-kitabi/
 redirect_from:
-  - /acik-ocak-isletmeleri-icin-kapsamli-el-kitabi
+  - /comprehensive-technical-handbook-for-open-pit-mining-engineers
+  - /comprehensive-technical-handbook-for-open-pit-mining-engineers/
 categories: [maden]
 mathjax: true
 tags: [acikocak, maden, muhendis, el kitabi]
