@@ -3,11 +3,11 @@
 		{% if paginator.previous_page == 1 %}
 			<a class="prev" href="/">&larr; Önceki</a>
 		{% else %}
-			<a class="prev" href="/page/{{ paginator.previous_page }}/">&larr; Önceki</i></a>
+			<a class="prev" href="/sayfa/{{ paginator.previous_page }}/">&larr; Önceki</i></a>
 		{% endif %}
 	{% endif %}
 	<span class="page-number">Sayfa {{paginator.page}}/{{paginator.total_pages}}</span>
 	{% if paginator.next_page %}
-		<a class="next" href="/page/{{ paginator.next_page }}/">Sonraki &rarr;</a>
+		<a class="next" href="/sayfa/{{ paginator.next_page }}/">Sonraki &rarr;</a>
 	{% endif %}
 </div>
