@@ -6,7 +6,7 @@ layout: post
 permalink: /cakildan-gigabayta/
 redirect_from:
   - /cakildan-gigabayta
-categories: [madencilik]
+categories: [maden]
 tags: [madencilik, muhendis, dijital donusum, muhendislikten teknolojiye, uzaktan calışma, dijital beceriler, veri odakli kararlar, cakildan gigabayta, madencilikten teknolojiye, kisisel donusum, uzaktan muhendislik, teknolojiye gecis, dijitallesme]
 image: mining5.jpg
 ---

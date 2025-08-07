@@ -6,7 +6,7 @@ layout: post
 permalink: /the-jorc-code-from-exploration-drilling-to-ore-reserve-declaration/
 redirect_from:
   - /the-jorc-code-from-exploration-drilling-to-ore-reserve-declaration
-categories: [mining]
+categories: [maden]
 tags: [JORC, Code, Exploration, Drilling, Ore Reserve, Declaration]
 image: jorc.jpg
 mathjax: true

@@ -6,7 +6,7 @@ layout: post
 permalink: /coklu-zaman-dilimli-fiyat-tahminleyici/
 redirect_from:
   - /coklu-zaman-dilimli-fiyat-tahminleyici
-categories: [mühendislik]
+categories: [muhendislik]
 tags: [fiyat, tahmin, indikator, binance, kripto]
 image: crypto-asset.png
 ---
