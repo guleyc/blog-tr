@@ -1,6 +1,6 @@
 <!-- LEFT SIDEBAR - Desktop Only -->
 <aside class="left-sidebar" id="left-sidebar">
-    <h4>📑 Table of Contents</h4>
+    <h4>📑 İçindekiler</h4>
     <nav class="left-sidebar-nav" id="left-sidebar-nav"></nav>
 </aside>
 
@@ -11,15 +11,15 @@
         <div class="mobile-button-bar">
             <button class="mobile-btn" data-section="info">
                 <span class="icon">📖</span>
-                <span>Info</span>
+                <span>Bilgi</span>
             </button>
             <button class="mobile-btn" data-section="tags">
                 <span class="icon">🏷️</span>
-                <span>Tags</span>
+                <span>Etiketler</span>
             </button>
             <button class="mobile-btn" data-section="toc">
                 <span class="icon">📑</span>
-                <span>Contents</span>
+                <span>İçindekiler</span>
             </button>
         </div>
         
@@ -29,18 +29,18 @@
         
         <div class="mobile-content">
             <div class="post-meta-sidebar" data-section="info">
-                <h4>📖 Article Info</h4>
+                <h4>📖 Makale Bilgileri</h4>
                 <div class="meta-item">
-                    <span class="meta-label">Published:</span>
+                    <span class="meta-label">Yayın Tarihi:</span>
                     <time class="meta-value" itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d.%m.%Y" }}</time>
                 </div>
                 <div class="meta-item">
-                    <span class="meta-label">Reading Time:</span>
+                    <span class="meta-label">Okuma Süresi:</span>
                     <span class="meta-value">{{ include.reading_time | default: "5" }} min</span>
                 </div>
                 {% if page.category %}
                 <div class="meta-item">
-                    <span class="meta-label">Category:</span>
+                    <span class="meta-label">Kategori:</span>
                     <span class="meta-value">{{ page.category }}</span>
                 </div>
                 {% endif %}
@@ -48,12 +48,12 @@
 
             {% if page.tags and page.tags.size > 0 %}
             <div class="tags-sidebar" data-section="tags">
-                <h4>🏷️ Tags</h4>
+                <h4>🏷️ Etiketler</h4>
                 <div class="tags-list">
                     {% for tag in page.tags %}
                         <a href="{{ site.baseurl | default: '' }}/tag/{{ tag | slugify | downcase }}/" 
                            class="sidebar-tag"
-                           title="View all posts tagged with {{ tag }}">
+                           title="{{ tag }} ile etiketlenmiş tüm gönderileri görüntüle.">
                            {{ tag }}
                         </a>
                     {% endfor %}
@@ -63,7 +63,7 @@
 
             <!-- TOC in mobile sidebar -->
             <div class="toc-sidebar" data-section="toc">
-                <h4>📑 Table of Contents</h4>
+                <h4>📑 İçindekiler</h4>
                 <nav class="right-sidebar-nav"></nav>
             </div>
         </div>
