@@ -10,6 +10,7 @@ redirect_from:
   - /maden-sektorunde-veri-analitigi-ve-yapay-zeka-uygulamalari
 categories: [maden]
 tags: [uygulamalar, veri, analitik, yapay, zeka, madencilik]
+image: ai-mining.jpg
 ---
 
 Madencilik sektörü, veri analitiği ve yapay zekâ (YZ) gibi ileri teknolojilerin benimsenmesiyle dijital bir dönüşümden geçmektedir. Bu teknolojiler, arama ve maden planlamadan üretim optimizasyonu ve güvenlik yönetimine kadar madencilik operasyonlarının çeşitli yönlerini kökten değiştirme potansiyeline sahiptir. Bu makalede, veri analitiği ve YZ'nin madencilik sektöründeki uygulamaları incelenmekte, potansiyel faydaları ve zorlukları vurgulanmaktadır.
