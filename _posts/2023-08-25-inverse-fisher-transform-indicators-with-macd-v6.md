@@ -1,79 +1,79 @@
 ---
-title: 'Inverse Fisher Transform Indicators with MACD v6'
+title: 'Inverse Fisher Transform Göstergeleri ve MACD v6'
 date: '2023-08-25'
-author: 'Cagatay Guley'
+author: 'Çağatay Güley'
 layout: post
 permalink: /inverse-fisher-transform-indicators-with-macd-v6/
 redirect_from:
   - /inverse-fisher-transform-indicators-with-macd-v6
-categories: [engineering]
-tags: [inverse, fisher, transform, indicators, macd]
+categories: [muhendislik]
+tags: [inverse, fisher, transform, gostergeler, macd]
 image: macd.png
 mathjax: true
 ---
 
-This document provides a detailed technical breakdown of the "Inverse Fisher Transform Indicators with MACD v6," a custom indicator developed in Pine Script for the TradingView platform. The primary objective of this indicator is to normalize and transform the output of several common oscillators—Stochastic, RSI, CCI, and MFI—using the Inverse Fisher Transform (IFT). This process aims to generate clearer, more timely trading signals by reducing noise and normalizing oscillator behavior. The indicator aggregates these transformed values into a unified rating system and integrates MACD as a supplementary tool for signal confirmation. This paper will detail the mathematical foundations, calculation pipeline, and practical application of each component.
+Bu doküman, TradingView platformu için Pine Script ile geliştirilmiş "Inverse Fisher Transform Indicators with MACD v6" adlı özel göstergenin teknik detaylarını sunar. Bu göstergenin temel amacı, Stokastik, RSI, CCI ve MFI gibi yaygın osilatörlerin çıktılarını normalize edip Inverse Fisher Transform (IFT) ile dönüştürmektir. Bu işlem, osilatör davranışını normalize ederek ve gürültüyü azaltarak daha net ve zamanında alım-satım sinyalleri üretmeyi hedefler. Göstergede, dönüştürülmüş bu değerler birleşik bir puanlama sisteminde toplanır ve sinyal teyidi için MACD entegre edilmiştir. Bu yazıda, her bileşenin matematiksel temelleri, hesaplama adımları ve pratik uygulamaları detaylandırılacaktır.
 
-## Core Concept: The Inverse Fisher Transform (IFT)
+## Temel Kavram: Inverse Fisher Transform (IFT)
 
-The standard Fisher Transform, developed by John Ehlers, is a mathematical operation that transforms any data set into a nearly Gaussian (normal) probability distribution. In trading, this is useful for identifying price reversals.
+Standart Fisher Transform, John Ehlers tarafından geliştirilmiş olup herhangi bir veri setini neredeyse Gauss (normal) dağılımına dönüştüren matematiksel bir işlemdir. Finansal piyasalarda bu, fiyat dönüşlerini tespit etmek için kullanılır.
 
-The **Inverse Fisher Transform (IFT)**, as its name suggests, performs the reverse operation. It takes a normalized input (typically in the range of `[-1, 1]`) and maps it to a new output, creating sharp, wave-like indicator movements that are less prone to the choppiness of traditional oscillators. The primary benefit is its ability to pinpoint turning points with minimal lag.
+**Inverse Fisher Transform (IFT)** ise adından da anlaşılacağı gibi ters işlemi yapar. Normalleştirilmiş bir girdiyi (genellikle `[-1, 1]` aralığında) yeni bir çıktıya dönüştürür ve geleneksel osilatörlerin dalgalı yapısına kıyasla daha keskin, dalga benzeri hareketler üretir. En büyük avantajı, minimum gecikmeyle dönüş noktalarını tespit edebilmesidir.
 
-### Mathematical Formulation
+### Matematiksel Formülasyon
 
-The IFT is mathematically equivalent to the **hyperbolic tangent function (`tanh`)**. If we have a normalized value `x`, the IFT is calculated as:
+IFT, matematiksel olarak **hiperbolik tanjant fonksiyonuna (`tanh`)** eşdeğerdir. Normalleştirilmiş bir `x` değeri için IFT şöyle hesaplanır:
 
 $$y_{IFT} = \frac{e^{2x} - 1}{e^{2x} + 1} = \tanh(x)$$
 
-## Indicator Components and Calculation Pipeline
+## Gösterge Bileşenleri ve Hesaplama Adımları
 
-The indicator follows a multi-step process to generate its final output.
+Göstergenin nihai çıktısı için çok adımlı bir süreç izlenir.
 
-### Step 1: Raw Oscillator Calculation
-The script first calculates the values of several standard oscillators.
+### Adım 1: Ham Osilatör Hesaplaması
+Script önce birkaç standart osilatörün değerlerini hesaplar.
 
-#### a) Relative Strength Index (RSI)
+#### a) Göreceli Güç Endeksi (RSI)
 $$RSI = 100 - \frac{100}{1 + RS}$$
 
-#### b) Commodity Channel Index (CCI)
-$$CCI = \frac{\text{Typical Price} - \text{SMA}(\text{Typical Price}, n)}{0.015 \times \text{Mean Deviation}}$$
+#### b) Emtia Kanal Endeksi (CCI)
+$$CCI = \frac{\text{Tipik Fiyat} - \text{SMA}(\text{Tipik Fiyat}, n)}{0.015 \times \text{Ortalama Sapma}}$$
 
-#### c) Stochastic Oscillator
-$$\%K = 100 \times \frac{\text{Current Close} - \text{Lowest Low}_n}{\text{Highest High}_n - \text{Lowest Low}_n}$$
+#### c) Stokastik Osilatör
+$$\%K = 100 \times \frac{\text{Güncel Kapanış} - \text{En Düşük Düşük}_n}{\text{En Yüksek Yüksek}_n - \text{En Düşük Düşük}_n}$$
 
-#### d) Money Flow Index (MFI)
-$$MFI = 100 - \frac{100}{1 + \text{Money Flow Ratio}}$$
+#### d) Para Akışı Endeksi (MFI)
+$$MFI = 100 - \frac{100}{1 + \text{Para Akışı Oranı}}$$
 
-### Step 2: Smoothing with Weighted Moving Average (WMA)
-To reduce signal noise, the raw values from each oscillator are smoothed using a Weighted Moving Average (WMA).
-$$WMA = \frac{\sum_{i=1}^{n} \text{Price}_i \times w_i}{\sum_{i=1}^{n} w_i}$$
+### Adım 2: Ağırlıklı Hareketli Ortalama (WMA) ile Düzleştirme
+Her osilatörden elde edilen ham değerler, sinyal gürültüsünü azaltmak için Ağırlıklı Hareketli Ortalama (WMA) ile düzleştirilir.
+$$WMA = \frac{\sum_{i=1}^{n} \text{Fiyat}_i \times w_i}{\sum_{i=1}^{n} w_i}$$
 
-### Step 3: Normalization and IFT Application
-The smoothed oscillator values are normalized and then used as the input `x` in the IFT formula:
-$$\text{Final Value} = \tanh(\text{Normalized Value})$$
+### Adım 3: Normalizasyon ve IFT Uygulaması
+Düzleştirilmiş osilatör değerleri normalize edilir ve IFT formülünde `x` girdisi olarak kullanılır:
+$$\text{Nihai Değer} = \tanh(\text{Normalleştirilmiş Değer})$$
 
-## Signal Generation and Rating System
+## Sinyal Üretimi ve Puanlama Sistemi
 
-The final IFT-transformed values determine the market rating:
-- **Strong Buy:** IFT value > 0.5
-- **Buy:** IFT value is positive.
-- **Neutral:** IFT value is near zero.
-- **Sell:** IFT value is negative.
-- **Strong Sell:** IFT value < -0.5
+Son IFT ile dönüştürülmüş değerler, piyasa puanlamasını belirler:
+- **Güçlü Al:** IFT değeri > 0.5
+- **Al:** IFT değeri pozitif
+- **Nötr:** IFT değeri sıfıra yakın
+- **Sat:** IFT değeri negatif
+- **Güçlü Sat:** IFT değeri < -0.5
 
-### Alerting Conditions
-1.  **Level Crossing:** Alert when IFT crosses overbought/oversold levels.
-2.  **Gradient Change:** Alert when the slope of the IFT line changes direction.
+### Uyarı Koşulları
+1.  **Seviye Geçişi:** IFT, aşırı alım/aşırı satım seviyelerini geçtiğinde uyarı üretir.
+2.  **Eğim Değişimi:** IFT çizgisinin eğimi yön değiştirdiğinde uyarı üretir.
 
-## Complementary Tool: Moving Average Convergence Divergence (MACD)
+## Tamamlayıcı Araç: Hareketli Ortalama Yakınsama Iraksama (MACD)
 
-MACD is included as a supplementary visual tool for confirmation.
-- **MACD Line:** EMA(12) - EMA(26)
-- **Signal Line:** EMA(9) of MACD Line
-- **Histogram:** MACD Line - Signal Line
+MACD, sinyal teyidi için ek görsel araç olarak dahil edilmiştir.
+- **MACD Çizgisi:** EMA(12) - EMA(26)
+- **Sinyal Çizgisi:** MACD Çizgisinin EMA(9)'u
+- **Histogram:** MACD Çizgisi - Sinyal Çizgisi
 
-The "Inverse Fisher Transform Indicators with MACD v6" script is a sophisticated tool that leverages the normalizing power of the IFT to enhance traditional oscillators. By smoothing data, applying the IFT, and aggregating the results, it provides a powerful method for identifying market reversals with improved clarity and reduced lag.
+"Inverse Fisher Transform Indicators with MACD v6" scripti, IFT'nin normalleştirici gücünden yararlanarak geleneksel osilatörleri geliştirir. Verileri düzleştirip IFT uygular ve sonuçları birleştirerek, piyasa dönüşlerini daha net ve düşük gecikmeyle tespit etmeye yardımcı olur.
 
 ```
 //@version=5
@@ -527,4 +527,3 @@ plotchar(gradientLvl, "Advances/Declines", "", location.top, signalColor)
 plotchar(triggerLong,  "Long Marker",  "▲", location.bottom, color.new(bullColor, 00), size = size.tiny)
 plotchar(triggerShort, "Short Marker", "▼", location.top,    color.new(bearColor, 00), size = size.tiny)
 // }
-```
