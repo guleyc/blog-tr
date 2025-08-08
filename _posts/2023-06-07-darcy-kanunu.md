@@ -14,7 +14,7 @@ image: darcy.png
 mathjax: true
 ---
 
-19. yüzyılın ortalarında, Fransız mühendis Henry Darcy, Dijon şehri için halka açık su çeşmelerinin tasarımından sorumluydu. Kum filtrelerinden su akışı üzerine yaptığı çalışmalar, hidrojeoloji, petrol mühendisliği ve inşaat mühendisliğinin temel taşlarından biri haline gelen ampirik bir ilişki kurmasına yol açtı. **Darcy Kanunu** olarak bilinen bu ilişki, bir akışkanın gözenekli bir ortamdan akışını tanımlar. Yeraltı suyunun nasıl hareket ettiğini, petrol ve gazın rezervuarlarda nasıl göç ettiğini ve suyun toprak ve kaya içinde nasıl sızdığını anlamak için nicel bir temel sağlar.
+Ondokuzuncu yüzyılın ortalarında, Fransız mühendis Henry Darcy, Dijon şehri için halka açık su çeşmelerinin tasarımından sorumluydu. Kum filtrelerinden su akışı üzerine yaptığı çalışmalar, hidrojeoloji, petrol mühendisliği ve inşaat mühendisliğinin temel taşlarından biri haline gelen ampirik bir ilişki kurmasına yol açtı. **Darcy Kanunu** olarak bilinen bu ilişki, bir akışkanın gözenekli bir ortamdan akışını tanımlar. Yeraltı suyunun nasıl hareket ettiğini, petrol ve gazın rezervuarlarda nasıl göç ettiğini ve suyun toprak ve kaya içinde nasıl sızdığını anlamak için nicel bir temel sağlar.
 
 ## Darcy Kanununun Matematiksel İfadesi
 
