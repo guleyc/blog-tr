@@ -7,7 +7,7 @@ permalink: /karbon-kredileri-ve-karbon-ayak-izi-rehberi/
 redirect_from:
   - /carbon-credits-and-carbon-footprints-guide
   - /karbon-kredileri-ve-karbon-ayak-izi-rehberi
-  - /karbon-kredileri-ve-karbon-ayak-izi-rehberi/
+  - /carbon-credits-and-carbon-footprints-guide/
 categories: [enerji]
 tags: [karbon, ayak-izi, krediler, emisyonlar, iklim, surdurulebilirlik, dengeleme, pazar, gonullu, uyum, GHG, CO2e, GWP, kapsam, hesaplama, olcum, dogrulama, gecerleme, standart, protokol, ISO, Verra, GoldStandard, proje, yeniden-agaclandirma, yenilenebilir, enerji, kacinma, giderim, ek-ilaveyet, kalicilik, sizinti, yesil-badana, politika, duzenleme, finans, teknoloji, tahsisat, ust-sinir, ticaret, notrluk, etki, azaltim, sekestrasyon, metan, atmosfer, kurumsal, bireysel]
 image: carbon.webp
