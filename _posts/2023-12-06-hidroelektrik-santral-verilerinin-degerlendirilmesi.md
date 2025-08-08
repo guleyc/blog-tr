@@ -1,5 +1,5 @@
 ---
-title: 'Enerji Üretimi Amaçlı Hidroelektrik Santrali Verilerinin Değerlendirilmesi'
+title: 'Hidroelektrik Santral Verilerinin Değerlendirilmesi'
 date: '2023-12-06'
 author: 'Cagatay Guley'
 layout: post
