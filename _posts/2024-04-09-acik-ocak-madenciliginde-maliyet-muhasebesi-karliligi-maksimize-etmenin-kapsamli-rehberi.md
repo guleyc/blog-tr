@@ -100,24 +100,29 @@ Bir açık ocak kömür madeni için sabit maliyetleri analiz edelim:
 
 1.  **Birim Başına Sabit Maliyet (BBSM):**
 
-    $BBSM = \frac{10.000.000 \$}{1.000.000 \text{ ton}} = 10 \$/\text{ton}$
+$$BBSM = \frac{10.000.000 \$}{1.000.000 \text{ ton}} = 10 \$/\text{ton}$$
 
 2.  **Doğrusal Amortisman:**
 
-    Doğrusal Amortisman Oranı $= \frac{1}{10} = 0,10$ (veya %10)
-    Yıllık Amortisman Gideri $= 5.000.000 \$ \times 0,10 = 500.000 \$/\text{yıl}$
+Doğrusal Amortisman Oranı $= \frac{1}{10} = 0,10$ (veya %10)
+
+Yıllık Amortisman Gideri $= 5.000.000 \$ \times 0,10 = 500.000 \$/\text{yıl}$
 
 3.  **Azalan Bakiyeler Yöntemiyle Amortisman (ilk yıl):**
 
-    Azalan Bakiyeler Oranı $= 2 \times 0,10 = 0,20$ (veya %20)
-    Yıllık Amortisman (1. yıl) $= 5.000.000 \$ \times 0,20 = 1.000.000 \$$
-    Kalan Defter Değeri (1. yıl sonu) $= 5.000.000 \$ - 1.000.000 \$ = 4.000.000 \$$
-    Yıllık Amortisman (2. yıl) $= 4.000.000 \$ \times 0,20 = 800.000 \$$
+$$Azalan Bakiyeler Oranı $= 2 \times 0,10 = 0,20$ (veya %20)
+
+$$Yıllık Amortisman (1. yıl) $= 5.000.000 \$ \times 0,20 = 1.000.000 \$$
+
+$$Kalan Defter Değeri (1. yıl sonu) $= 5.000.000 \$ - 1.000.000 \$ = 4.000.000 \$$
+
+$$Yıllık Amortisman (2. yıl) $= 4.000.000 \$ \times 0,20 = 800.000 \$$
 
 4.  **Üretim Miktarı Yöntemiyle Amortisman:**
 
-    Birim Başına Amortisman $= \frac{(5.000.000 \$ - 500.000 \$)}{10.000.000 \text{ ton}} = 0,45 \$/\text{ton}$
-    Yıllık Amortisman (1 milyon ton için) $= 0,45 \$/\text{ton} \times 1.000.000 \text{ ton} = 450.000 \$$
+Birim Başına Amortisman $= \frac{(5.000.000 \$ - 500.000 \$)}{10.000.000 \text{ ton}} = 0,45 \$/\text{ton}$
+
+Yıllık Amortisman (1 milyon ton için) $= 0,45 \$/\text{ton} \times 1.000.000 \text{ ton} = 450.000 \$$
 
 Bu hesaplamalar, farklı amortisan yöntemlerinin sermaye maliyetlerini nasıl etkilediğini gösterir. Doğrusal amortisman, ekipmanın faydalı ömrü boyunca eşit amortisman sağlarken, azalan bakiyeler yöntemi ilk yıllarda daha yüksek amortisman sağlar. Üretim miktarı yöntemi ise amortismanı ekipman kullanımına göre hesaplar.
 
