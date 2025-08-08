@@ -153,7 +153,7 @@ Değişken maliyetler, üretim hacmiyle birlikte değişen maliyetlerdir. Açık
 
 #### 1.2.1. Değişken Maliyetlerin Hesaplanması
 
-Değişken maliyetlerin hesaplanması ve analizinde çeşitli formüller kullanılabilir:
+Değişken maliyetlerin hesaplanması ve analizi için çeşitli formüller kullanılabilir:
 
 **Birim Değişken Maliyet (VCU):**
 
@@ -686,7 +686,7 @@ NBD = -141.817.400 $
 $EYM = -141.817.400 \times \frac{0,10(1 + 0,10)^{15}}{((1 + 0,10)^{15} - 1)}$
 $EYM = -141.817.400 \times \frac{0,10 \times 4,1772}{3,1772}$
 $EYM = -141.817.400 \times 0,1315$
-$EYM = -18.649.000 \$/\text{yıl}$
+$EYM = -18.649.000 \,\$/\text{yıl}$
 
 Bu, tesisin eşdeğer yıllık maliyetinin 18,65 milyon $ olduğunu gösterir.
 
@@ -694,9 +694,9 @@ Bu, tesisin eşdeğer yıllık maliyetinin 18,65 milyon $ olduğunu gösterir.
 
 Tesisin yılda 2 milyon ton cevher işlediğini varsayalım:
 
-Birim YDM = $\frac{18,65 \text{ milyon \$/yıl}}{2 \text{ milyon ton/yıl}} = 9,33 \$/\text{ton}$
-
-Bu analiz, tesisin ton başına yaşam döngüsü maliyetinin 9,33 $ olduğunu gösterir.
+$$
+\text{Birim YDM} = \frac{18,65 \,\text{milyon \,\$/yıl}}{2 \,\text{milyon ton/yıl}} = 9,33 \,\$/\text{ton}
+$$
 
 YDM analizi, bir yatırımın uzun vadeli ekonomik etkilerini değerlendirmek için önemlidir. Bu örnekte tesisin NBD'si negatiftir, bu da yatırımın ekonomik olarak uygun olmayabileceğini gösterebilir. Ancak, diğer faktörler (örneğin, stratejik önem, çevresel faydalar) de dikkate alınmalıdır.
 
@@ -746,37 +746,53 @@ Bir açık ocak altın madeni için üretim planlamasını optimize edelim:
 
 1.  **Optimum Üretim Miktarı:**
 
-Optimum Üretim Miktarı = $\frac{20.000.000 \$}{(1.800 \$/\text{ons} - 800 \$/\text{ons} - 0,20 \times 1.800 \$/\text{ons})}$
+$$
+\text{Optimum Üretim Miktarı} = \frac{20.000.000 \,\$}{(1.800 \,\$/\text{ons} - 800 \,\$/\text{ons} - 0,20 \times 1.800 \,\$/\text{ons})}
+$$
 
-Optimum Üretim Miktarı = $\frac{20.000.000 \$}{(1.800 \$/\text{ons} - 800 \$/\text{ons} - 360 \$/\text{ons})}$
+$$
+\text{Optimum Üretim Miktarı} = \frac{20.000.000 \,\$}{(1.800 \,\$/\text{ons} - 800 \,\$/\text{ons} - 360 \,\$/\text{ons})}
+$$
 
-Optimum Üretim Miktarı = $\frac{20.000.000 \$}{640 \$/\text{ons}} = 31.250 \text{ ons/yıl}$
+$$
+\text{Optimum Üretim Miktarı} = \frac{20.000.000 \,\$}{640 \,\$/\text{ons}} = 31.250 \,\text{ons/yıl}
+$$
 
 2.  **Optimum Dekapaj Oranı:**
 
 Ortalama cevher tenörünün 2 g/ton (0,064 ons/ton) olduğunu varsayalım:
 
-Cevher Satış Değeri = $0,064 \text{ ons/ton} \times 1.800 \$/\text{ons} = 115,2 \$/\text{ton}$
+$$
+\text{Cevher Satış Değeri} = 0,064 \,\text{ons/ton} \times 1.800 \,\$/\text{ons} = 115,2 \,\$/\text{ton}
+$$
 
-Optimum Dekapaj Oranı = $\frac{(115,2 \$/\text{ton} - 3 \$/\text{ton} - 15 \$/\text{ton} - 0,20 \times 115,2 \$/\text{ton})}{2,5 \$/\text{ton}}$
+$$
+\text{Optimum Dekapaj Oranı} = \frac{(115,2 \,\$/\text{ton} - 3 \,\$/\text{ton} - 15 \,\$/\text{ton} - 0,20 \times 115,2 \,\$/\text{ton})}{2,5 \,\$/\text{ton}}
+$$
 
-Optimum Dekapaj Oranı = $\frac{(115,2 \$/\text{ton} - 3 \$/\text{ton} - 15 \$/\text{ton} - 23,04 \$/\text{ton})}{2,5 \$/\text{ton}}$
+$$
+\text{Optimum Dekapaj Oranı} = \frac{(115,2 \,\$/\text{ton} - 3 \,\$/\text{ton} - 15 \,\$/\text{ton} - 23,04 \,\$/\text{ton})}{2,5 \,\$/\text{ton}}
+$$
 
-Optimum Dekapaj Oranı = $\frac{74,16 \$/\text{ton}}{2,5 \$/\text{ton}} = 29,66$
+$$
+\text{Optimum Dekapaj Oranı} = \frac{74,16 \,\$/\text{ton}}{2,5 \,\$/\text{ton}} = 29,66
+$$
 
 Bu, ekonomik olarak çıkarılabilir her bir ton cevher için 29,66 ton örtü kazılabileceğini gösterir.
 
 3.  **Optimum Kesme Tenörü:**
 
-Optimum Kesme Tenörü = $\frac{(15 \$/\text{ton} + 0)}{[(1.800 \$/\text{ons} \times 0,90) - 20 \$/\text{ons}]}$
+$$
+\text{Optimum Kesme Tenörü} = \frac{15 \,\$/\text{ton} + 0}{[(1.800 \,\$/\text{ons} \times 0,90) - 20 \,\$/\text{ons}]}
+$$
 
-Optimum Kesme Tenörü = $\frac{15 \$/\text{ton}}{(1.620 \$/\text{ons} - 20 \$/\text{ons})}$
+$$
+\text{Optimum Kesme Tenörü} = \frac{15 \,\$/\text{ton}}{(1.620 \,\$/\text{ons} - 20 \,\$/\text{ons})}
+$$
 
-Optimum Kesme Tenörü = $\frac{15 \$/\text{ton}}{1.600 \$/\text{ons}} = 0,009375 \text{ ons/ton} = 0,29 \text{ g/ton}$
-
-Bu, tenörü 0,29 g/ton'dan düşük olan cevherin ekonomik olmadığını gösterir.
-
-Üretim planlama optimizasyonu, madencilik operasyonlarının ekonomik verimliliğini artırmak için kritik öneme sahiptir. Yukarıdaki hesaplamalar optimum üretim miktarını, dekapaj oranını ve kesme tenörünü belirlemeye yardımcı olabilir.
+$$
+\text{Optimum Kesme Tenörü} = \frac{15 \,\$/\text{ton}}{1.600 \,\$/\text{ons}} = 0,009375 \,\text{ons/ton} = 0,29 \,\text{g/ton}
+$$
 
 ### 3.2. Teknoloji Adaptasyonu
 
@@ -799,8 +815,18 @@ $$
 **Otonom Ekipman Maliyet Tasarrufu:**
 
 $$
-\text{Maliyet Tasarrufu} = (\text{Klasik İşçilik Maliyeti} - \text{Otonom İşçilik Maliyeti}) + (\text{Klasik Yakıt Tüketimi} - \text{Otonom Yakıt Tüketimi}) \times \text{Yakıt Fiyatı} + (\text{Klasik Bakım Maliyeti} - \text{Otonom Bakım Maliyeti})
+\text{MT} = (\text{KİM} - \text{OİM}) + (\text{KYT} - \text{OYT}) \times \text{YF} + (\text{KBM} - \text{OBM})
 $$
+
+Burada:
+- MT: Maliyet Tasarrufu
+- KİM: Klasik İşçilik Maliyeti
+- OİM: Otonom İşçilik Maliyeti
+- KYT: Klasik Yakıt Tüketimi
+- OYT: Otonom Yakıt Tüketimi
+- YF: Yakıt Fiyatı
+- KBM: Klasik Bakım Maliyeti
+- OBM: Otonom Bakım Maliyeti
 
 #### 3.2.2. Teknoloji Adaptasyonu Örneği
 
@@ -823,21 +849,33 @@ Bir açık ocak bakır madeni için otonom kamyon filosu yatırımını analiz e
 
 1.  **Yıllık Maliyet Tasarrufu:**
 
-İşçilik Tasarrufu = $5.000.000 \$/\text{yıl} - 2.000.000 \$/\text{yıl} = 3.000.000 \$/\text{yıl}$
+$$
+\text{İşçilik Tasarrufu} = 5.000.000 \,\$/\text{yıl} - 2.000.000 \,\$/\text{yıl} = 3.000.000 \,\$/\text{yıl}
+$$
 
-Yakıt Tasarrufu = $(10.000.000 \text{ l/yıl} - 8.500.000 \text{ l/yıl}) \times 1,2 \$/\text{l} = 1.800.000 \$/\text{yıl}$
+$$
+\text{Yakıt Tasarrufu} = (10.000.000 \,\text{l/yıl} - 8.500.000 \,\text{l/yıl}) \times 1,2 \,\$/\text{l} = 1.800.000 \,\$/\text{yıl}
+$$
 
-Bakım Tasarrufu = $4.000.000 \$/\text{yıl} - 3.000.000 \$/\text{yıl} = 1.000.000 \$/\text{yıl}$
+$$
+\text{Bakım Tasarrufu} = 4.000.000 \,\$/\text{yıl} - 3.000.000 \,\$/\text{yıl} = 1.000.000 \,\$/\text{yıl}
+$$
 
-Toplam Yıllık Tasarruf = $3.000.000 + 1.800.000 + 1.000.000 = 5.800.000 \$/\text{yıl}$
+$$
+\text{Toplam Yıllık Tasarruf} = 3.000.000 + 1.800.000 + 1.000.000 = 5.800.000 \,\$/\text{yıl}
+$$
 
 2.  **Geri Ödeme Süresi:**
 
-Geri Ödeme Süresi = $\frac{30.000.000 \$}{5.800.000 \$/\text{yıl}} = 5,17 \text{ yıl}$
+$$
+\text{Geri Ödeme Süresi} = \frac{30.000.000 \,\$}{5.800.000 \,\$/\text{yıl}} = 5,17 \,\text{yıl}
+$$
 
 3.  **Net Bugünkü Değer (NBD):**
 
-$NBD = -30.000.000 + \sum_{t=1}^{10} \frac{5.800.000}{(1 + 0,08)^t}$
+$$
+NBD = -30.000.000 + \sum_{t=1}^{10} \frac{5.800.000}{(1 + 0,08)^t}
+$$
 
 | Yıl (t) | Nakit Akışı ($) | İskonto Faktörü $(1 + 0,08)^{-t}$ | Bugünkü Değer ($) |
 | :--- | :--- | :--- | :--- |
@@ -902,7 +940,9 @@ Bir açık ocak madeni için patlayıcı madde tedarik zincirini optimize edelim
 
 1.  **Ekonomik Sipariş Miktarı (ESM):**
 
-$ESM = \sqrt{\frac{2 \times 1.000 \text{ ton} \times 500 \$}{200 \$/\text{ton}}} = \sqrt{5.000} = 70,71 \text{ ton}$
+$$
+ESM = \sqrt{\frac{2 \times 1.000 \,\text{ton} \times 500 \,\$}{200 \,\$/\text{ton}}} = \sqrt{5.000} = 70,71 \,\text{ton}
+$$
 
 Pratikte bu 70 ton olarak yuvarlanabilir.
 
@@ -912,15 +952,25 @@ Sipariş sayısı = 1.000 ton / 70 ton = 14,29 ≈ 14 sipariş/yıl
 
 Ortalama envanter = 70 ton / 2 = 35 ton
 
-Satın Alma Maliyeti = $2.000 \$/\text{ton} \times 1.000 \text{ ton} = 2.000.000 \$$
+$$
+\text{Satın Alma Maliyeti} = 2.000 \,\$/\text{ton} \times 1.000 \,\text{ton} = 2.000.000 \,\$
+$$
 
-Sipariş Maliyeti = $500 \$/\text{sipariş} \times 14 \text{ sipariş} = 7.000 \$$
+$$
+\text{Sipariş Maliyeti} = 500 \,\$/\text{sipariş} \times 14 \,\text{sipariş} = 7.000 \,\$
+$$
 
-Stoklama Maliyeti = $200 \$/\text{ton/yıl} \times 35 \text{ ton} = 7.000 \$$
+$$
+\text{Stoklama Maliyeti} = 200 \,\$/\text{ton/yıl} \times 35 \,\text{ton} = 7.000 \,\$
+$$
     
-Stoksuz Kalma Maliyeti = $5.000 \$/\text{ton} \times 0,02 \times 1.000 \text{ ton} = 100.000 \$$
+$$
+\text{Stoksuz Kalma Maliyeti} = 5.000 \,\$/\text{ton} \times 0,02 \times 1.000 \,\text{ton} = 100.000 \,\$
+$$
 
-Toplam Maliyet = $2.000.000 + 7.000 + 7.000 + 100.000 = 2.114.000 \$$
+$$
+\text{Toplam Maliyet} = 2.000.000 + 7.000 + 7.000 + 100.000 = 2.114.000 \,\$
+$$
 
 3.  **Tedarikçi Karşılaştırması:**
 
@@ -1005,25 +1055,35 @@ Bir açık ocak madeni için bir ekskavatör bakım programını analiz edelim:
 
 1.  **Ekipman Kullanılabilirliği:**
 
-Kullanılabilirlik = $\frac{7.000 \text{ saat}}{(7.000 \text{ saat} + 1.000 \text{ saat})} = 0,875$ (veya %87,5)
+$$
+\text{Kullanılabilirlik} = \frac{7.000 \,\text{saat}}{7.000 \,\text{saat} + 1.000 \,\text{saat}} = 0,875 \quad (\%87,5)
+$$
 
 2.  **Arızalar Arası Ortalama Süre (MTBF):**
 
-MTBF = $\frac{7.000 \text{ saat}}{50 \text{ arıza}} = 140 \text{ saat/arıza}$
+$$
+\text{MTBF} = \frac{7.000 \,\text{saat}}{50 \,\text{arıza}} = 140 \,\text{saat/arıza}
+$$
 
 3.  **Ortalama Tamir Süresi (MTTR):**
 
-MTTR = $\frac{1.000 \text{ saat}}{50 \text{ arıza}} = 20 \text{ saat/arıza}$
+$$
+\text{MTTR} = \frac{1.000 \,\text{saat}}{50 \,\text{arıza}} = 20 \,\text{saat/arıza}
+$$
 
 4.  **Bakım Maliyeti Oranı:**
 
-Toplam Bakım Maliyeti = $300.000 \$ + 700.000 \$ = 1.000.000 \$$
+Toplam Bakım Maliyeti = $300.000 \$ + 700.000 \$ = 1.000.000 \,\$ $
 
-Bakım Maliyeti Oranı = $\frac{1.000.000 \$}{5.000.000 \$} = 0,20$ (veya %20)
+$$
+\text{Bakım Maliyeti Oranı} = \frac{1.000.000 \,\$}{5.000.000 \,\$} = 0,20 \quad (\%20)
+$$
 
 5.  **Planlı Bakım Uyum Oranı:**
 
-Planlı Bakım Uyum Oranı = $\frac{500 \text{ saat}}{(500 \text{ saat} + 1.000 \text{ saat})} = 0,33$ (veya %33)
+$$
+\text{Planlı Bakım Uyum Oranı} = \frac{500 \,\text{saat}}{500 \,\text{saat} + 1.000 \,\text{saat}} = 0,33 \quad (\%33)
+$$
 
 6.  **Kestirimci Bakım Programı Uygulamanın Etkisi:**
 
@@ -1034,19 +1094,33 @@ Kestirimci bakım programı uygulandıktan sonra varsayımlar:
 - Düzeltici bakım süresi 1.000 saatten 300 saate düşüyor
 - Toplam bakım maliyeti 1.000.000 $'dan 800.000 $'a düşüyor
 
-Yeni Kullanılabilirlik = $\frac{7.000 \text{ saat}}{(7.000 \text{ saat} + 500 \text{ saat})} = 0,933$ (veya %93,3)
+$$
+\text{Yeni Kullanılabilirlik} = \frac{7.000 \,\text{saat}}{7.000 \,\text{saat} + 500 \,\text{saat}} = 0,933 \quad (\%93,3)
+$$
 
-Kullanılabilirlik Artışı = $0,933 - 0,875 = 0,058$ (veya %5,8)
+$$
+\text{Kullanılabilirlik Artışı} = 0,933 - 0,875 = 0,058 \quad (\%5,8)
+$$
 
-Ek Üretim Saati = $0,058 \times (7000+1000) \text{ saat} \approx 464 \text{ saat}$
+$$
+\text{Ek Üretim Saati} = 0,058 \times (7.000 + 1.000) \,\text{saat} \approx 464 \,\text{saat}
+$$
 
-Ek Üretim Hacmi = $464 \text{ saat} \times 1.000 \text{ ton/saat} = 464.000 \text{ ton}$
+$$
+\text{Ek Üretim Hacmi} = 464 \,\text{saat} \times 1.000 \,\text{ton/saat} = 464.000 \,\text{ton}
+$$
 
-Ek Katkı Payı = $464.000 \text{ ton} \times (50 \$/\text{ton} - 20 \$/\text{ton}) = 13.920.000 \$
+$$
+\text{Ek Katkı Payı} = 464.000 \,\text{ton} \times (50 \,\$/\text{ton} - 20 \,\$/\text{ton}) = 13.920.000 \,\$
+$$
 
-Bakım Maliyeti Tasarrufu = $1.000.000 \$ - 800.000 \$ = 200.000 \$
+$$
+\text{Bakım Maliyeti Tasarrufu} = 1.000.000 \,\$ - 800.000 \,\$ = 200.000 \,\$
+$$
 
-Toplam Fayda = $13.920.000 \$ + 200.000 \$ = 14.120.000 \$
+$$
+\text{Toplam Fayda} = 13.920.000 \,\$ + 200.000 \,\$ = 14.120.000 \,\$
+$$
 
 Bu analiz, kestirimci bir bakım programı uygulamanın önemli ekonomik faydalar sağlayabileceğini göstermektedir.
 
