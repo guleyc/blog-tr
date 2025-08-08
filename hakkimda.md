@@ -2,6 +2,10 @@
 layout: page
 title: "Hakkımda"
 permalink: /hakkimda/
+redirect_from:
+ - /hakkimda
+ - /about
+ - /about/
 author: Cagatay Guley
 ---
 
