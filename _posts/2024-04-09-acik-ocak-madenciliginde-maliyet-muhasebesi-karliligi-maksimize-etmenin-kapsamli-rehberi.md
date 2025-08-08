@@ -11,6 +11,7 @@ redirect_from:
 categories: [maden]
 tags: [acikocak, madencilik, maliyet, muhasebe, karlilik, rehber]
 image: cost-accounting.webp
+mathjax: true
 ---
 
 Açık ocak madenciliği, minerallerin ve hammaddelerin çıkarılmasında yaygın olarak kullanılan bir yöntemdir. Yeraltı madenciliğine göre daha düşük üretim maliyetleri sunsa da, önemli bir maliyet yapısı içerir. Açık ocak madenciliğinde etkin maliyet muhasebesi, kârlılığın optimize edilmesi ve sürdürülebilirliğin sağlanması için kritik öneme sahiptir.
