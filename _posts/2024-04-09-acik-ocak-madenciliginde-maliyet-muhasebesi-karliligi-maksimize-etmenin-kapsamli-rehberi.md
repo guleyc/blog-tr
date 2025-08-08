@@ -100,33 +100,49 @@ Bir açık ocak kömür madeni için sabit maliyetleri analiz edelim:
 
 1.  **Birim Başına Sabit Maliyet (BBSM):**
 
-$$BBSM = \frac{10.000.000 \$}{1.000.000 \text{ ton}} = 10 \$/\text{ton}$$
+$$
+\text{BBSM} = \frac{10.000.000 \,\$}{1.000.000 \,\text{ton}} = 10 \,\$/\text{ton}
+$$
 
 2.  **Doğrusal Amortisman:**
 
-Doğrusal Amortisman Oranı $= \frac{1}{10} = 0,10$ (veya %10)
+$$
+\text{Doğrusal Amortisman Oranı} = \frac{1}{10} = 0,10 \quad (\%10)
+$$
 
-Yıllık Amortisman Gideri $= 5.000.000 \$ \times 0,10 = 500.000 \$/\text{yıl}$
+$$
+\text{Yıllık Amortisman Gideri} = 5.000.000 \,\$ \times 0,10 = 500.000 \,\$/\text{yıl}
+$$
 
 3.  **Azalan Bakiyeler Yöntemiyle Amortisman (ilk yıl):**
 
-$$Azalan Bakiyeler Oranı $= 2 \times 0,10 = 0,20$ (veya %20)
+$$
+\text{Azalan Bakiyeler Oranı} = 2 \times 0,10 = 0,20 \quad (\%20)
+$$
 
-$$Yıllık Amortisman (1. yıl) $= 5.000.000 \$ \times 0,20 = 1.000.000 \$$
+$$
+\text{Yıllık Amortisman (1. yıl)} = 5.000.000 \,\$ \times 0,20 = 1.000.000 \,\$
+$$
 
-$$Kalan Defter Değeri (1. yıl sonu) $= 5.000.000 \$ - 1.000.000 \$ = 4.000.000 \$$
+$$
+\text{Kalan Defter Değeri (1. yıl sonu)} = 5.000.000 \,\$ - 1.000.000 \,\$ = 4.000.000 \,\$
+$$
 
-$$Yıllık Amortisman (2. yıl) $= 4.000.000 \$ \times 0,20 = 800.000 \$$
+$$
+\text{Yıllık Amortisman (2. yıl)} = 4.000.000 \,\$ \times 0,20 = 800.000 \,\$
+$$
 
 4.  **Üretim Miktarı Yöntemiyle Amortisman:**
 
-Birim Başına Amortisman $= \frac{(5.000.000 \$ - 500.000 \$)}{10.000.000 \text{ ton}} = 0,45 \$/\text{ton}$
+$$
+\text{Birim Başına Amortisman} = \frac{5.000.000 \,\$ - 500.000 \,\$}{10.000.000 \,\text{ton}} = 0,45 \,\$/\text{ton}
+$$
 
-Yıllık Amortisman (1 milyon ton için) $= 0,45 \$/\text{ton} \times 1.000.000 \text{ ton} = 450.000 \$$
+$$
+\text{Yıllık Amortisman (1 milyon ton için)} = 0,45 \,\$/\text{ton} \times 1.000.000 \,\text{ton} = 450.000 \,\$
+$$
 
-Bu hesaplamalar, farklı amortisan yöntemlerinin sermaye maliyetlerini nasıl etkilediğini gösterir. Doğrusal amortisman, ekipmanın faydalı ömrü boyunca eşit amortisman sağlarken, azalan bakiyeler yöntemi ilk yıllarda daha yüksek amortisman sağlar. Üretim miktarı yöntemi ise amortismanı ekipman kullanımına göre hesaplar.
-
-### 1.2. Değişken Maliyetler
+#### 1.2. Değişken Maliyetler
 
 Değişken maliyetler, üretim hacmiyle birlikte değişen maliyetlerdir. Açık ocak madenciliğindeki ana değişken maliyet kalemleri şunlardır:
 
@@ -195,28 +211,53 @@ Bir açık ocak bakır madeni için değişken maliyetleri analiz edelim:
 
 1.  **Enerji Maliyeti:**
 
-    Enerji Maliyeti $= 15 \text{ kWh/ton} \times 0,10 \text{ \$/kWh} \times 5.000.000 \text{ ton} = 7.500.000 \$$
-    Birim Enerji Maliyeti $= \frac{7.500.000 \$}{5.000.000 \text{ ton}} = 1,50 \$/\text{ton}$
+$$
+\text{Enerji Maliyeti} = 15 \,\text{kWh/ton} \times 0,10 \,\$/\text{kWh} \times 5.000.000 \,\text{ton} = 7.500.000 \,\$
+$$
+
+$$
+\text{Birim Enerji Maliyeti} = \frac{7.500.000 \,\$}{5.000.000 \,\text{ton}} = 1,50 \,\$/\text{ton}
+$$
 
 2.  **Patlayıcı Maliyeti:**
 
-    Patlayıcı Maliyeti $= 0,5 \text{ kg/ton} \times 2 \text{ \$/kg} \times 5.000.000 \text{ ton} = 5.000.000 \$$
-    Birim Patlayıcı Maliyeti $= \frac{5.000.000 \$}{5.000.000 \text{ ton}} = 1,00 \$/\text{ton}$
+$$
+\text{Patlayıcı Maliyeti} = 0,5 \,\text{kg/ton} \times 2 \,\$/\text{kg} \times 5.000.000 \,\text{ton} = 5.000.000 \,\$
+$$
+
+$$
+\text{Birim Patlayıcı Maliyeti} = \frac{5.000.000 \,\$}{5.000.000 \,\text{ton}} = 1,00 \,\$/\text{ton}
+$$
 
 3.  **Nakliye Maliyeti:**
 
-    Nakliye Maliyeti $= 3 \text{ km} \times 0,20 \text{ \$/ton-km} \times 5.000.000 \text{ ton} = 3.000.000 \$$
-    Birim Nakliye Maliyeti $= \frac{3.000.000 \$}{5.000.000 \text{ ton}} = 0,60 \$/\text{ton}$
+$$
+\text{Nakliye Maliyeti} = 3 \,\text{km} \times 0,20 \,\$/\text{ton-km} \times 5.000.000 \,\text{ton} = 3.000.000 \,\$
+$$
+
+$$
+\text{Birim Nakliye Maliyeti} = \frac{3.000.000 \,\$}{5.000.000 \,\text{ton}} = 0,60 \,\$/\text{ton}
+$$
 
 4.  **Bakım Maliyeti:**
 
-    Bakım Maliyeti $= 50.000.000 \$ \times 0,05 = 2.500.000 \$$
-    Birim Bakım Maliyeti $= \frac{2.500.000 \$}{5.000.000 \text{ ton}} = 0,50 \$/\text{ton}$
+$$
+\text{Bakım Maliyeti} = 50.000.000 \,\$ \times 0,05 = 2.500.000 \,\$
+$$
+
+$$
+\text{Birim Bakım Maliyeti} = \frac{2.500.000 \,\$}{5.000.000 \,\text{ton}} = 0,50 \,\$/\text{ton}
+$$
 
 5.  **Toplam Değişken Maliyet:**
 
-    BBDM $= 1,50 \$/\text{ton} + 1,00 \$/\text{ton} + 0,60 \$/\text{ton} + 0,50 \$/\text{ton} = 3,60 \$/\text{ton}$
-    Toplam Değişken Maliyet $= 3,60 \$/\text{ton} \times 5.000.000 \text{ ton} = 18.000.000 \$$
+$$
+\text{BBDM} = 1,50 \,\$/\text{ton} + 1,00 \,\$/\text{ton} + 0,60 \,\$/\text{ton} + 0,50 \,\$/\text{ton} = 3,60 \,\$/\text{ton}
+$$
+
+$$
+\text{Toplam Değişken Maliyet} = 3,60 \,\$/\text{ton} \times 5.000.000 \,\text{ton} = 18.000.000 \,\$
+$$
 
 Bu analiz, değişken maliyetlerin dağılımını ve toplam değişken maliyeti göstermektedir. Enerji maliyeti en büyük değişken maliyet kalemi olarak öne çıkmaktadır.
 
@@ -297,41 +338,65 @@ Bir açık ocak kömür madeni için kârlılığı analiz edelim:
 
 1.  **Birim Başına Sabit Maliyet:**
 
-    $BBSM = \frac{10.000.000 \$}{1.000.000 \text{ ton}} = 10 \$/\text{ton}$
+$$
+\text{BBSM} = \frac{10.000.000 \,\$}{1.000.000 \,\text{ton}} = 10 \,\$/\text{ton}
+$$
 
 2.  **Toplam Maliyet:**
 
-    $TM = 10.000.000 \$ + (200 \$/\text{ton} \times 1.000.000 \text{ ton}) = 10.000.000 \$ + 200.000.000 \$ = 210.000.000 \$$
+$$
+\text{TM} = 10.000.000 \,\$ + (200 \,\$/\text{ton} \times 1.000.000 \,\text{ton}) = 10.000.000 \,\$ + 200.000.000 \,\$ = 210.000.000 \,\$
+$$
 
 3.  **Birim Maliyet:**
 
-    $BM = 10 \$/\text{ton} + 200 \$/\text{ton} = 210 \$/\text{ton}$
+$$
+\text{BM} = 10 \,\$/\text{ton} + 200 \,\$/\text{ton} = 210 \,\$/\text{ton}
+$$
 
 4.  **Katkı Payı:**
 
-    $KP = 500 \$/\text{ton} - 200 \$/\text{ton} = 300 \$/\text{ton}$
+$$
+\text{KP} = 500 \,\$/\text{ton} - 200 \,\$/\text{ton} = 300 \,\$/\text{ton}
+$$
 
 5.  **Katkı Payı Oranı:**
 
-    $KPO = \frac{300 \$/\text{ton}}{500 \$/\text{ton}} = 0,60$ (veya %60)
+$$
+\text{KPO} = \frac{300 \,\$/\text{ton}}{500 \,\$/\text{ton}} = 0,60
+$$
 
 6.  **Başabaş Noktası (Birim olarak):**
 
-    $BN (\text{birim}) = \frac{10.000.000 \$}{300 \$/\text{ton}} = 33.333 \text{ ton}$
+$$
+\text{BN}_{\text{birim}} = \frac{10.000.000 \,\$}{300 \,\$/\text{ton}} = 33.333 \,\text{ton}
+$$
 
 7.  **Başabaş Noktası (Değer olarak):**
 
-    $BN (\text{değer}) = \frac{10.000.000 \$}{0,60} = 16.666.667 \$$
+$$
+\text{BN}_{\text{değer}} = \frac{10.000.000 \,\$}{0,60} = 16.666.667 \,\$
+$$
 
 8.  **Kâr:**
 
-    Kâr $= 1.000.000 \text{ ton} \times (500 \$/\text{ton} - 10 \$/\text{ton} - 200 \$/\text{ton})$
-    Kâr $= 1.000.000 \text{ ton} \times 290 \$/\text{ton} = 290.000.000 \$$
+$$
+\text{Kâr} = 1.000.000 \,\text{ton} \times (500 \,\$/\text{ton} - 10 \,\$/\text{ton} - 200 \,\$/\text{ton})
+$$
+
+$$
+\text{Kâr} = 1.000.000 \,\text{ton} \times 290 \,\$/\text{ton} = 290.000.000 \,\$
+$$
 
 9.  **Kâr Marjı:**
 
-    Toplam Gelir $= 500 \$/\text{ton} \times 1.000.000 \text{ ton} = 500.000.000 \$$
-    Kâr Marjı $= \frac{290.000.000 \$}{500.000.000 \$} = 0,58$ (veya %58)
+$$
+\text{Toplam Gelir} = 500 \,\$/\text{ton} \times 1.000.000 \,\text{ton} = 500.000.000 \,\$
+$$
+
+$$
+\text{Kâr Marjı} = \frac{290.000.000 \,\$}{500.000.000 \,\$} = 0,58
+$$
 
 Bu analiz, madenin kârlılığını ve başabaş noktasını göstermektedir. Başabaş noktası, madenin kâr etmeye başladığı üretim hacmidir. Bu örnekte maden, 33.333 ton kömürde başabaş noktasına ulaşmaktadır.
 
@@ -398,19 +463,27 @@ Bir açık ocak kömür madeni için TMY'yi analiz edelim:
 
 1.  **Toplam Maliyet:**
 
-    $TM = 10.000.000 \$ + (200 \$/\text{ton} \times 1.000.000 \text{ ton}) = 210.000.000 \$$
+$$
+\text{TM} = 10.000.000 \,\$ + (200 \,\$/\text{ton} \times 1.000.000 \,\text{ton}) = 210.000.000 \,\$
+$$
 
 2.  **Ortalama Maliyet (Birim Maliyet):**
 
-    $OM = \frac{210.000.000 \$}{1.000.000 \text{ ton}} = 210 \$/\text{ton}$
+$$
+\text{OM} = \frac{210.000.000 \,\$}{1.000.000 \,\text{ton}} = 210 \,\$/\text{ton}
+$$
 
-    Alternatif hesaplama:
+Alternatif hesaplama:
 
-    $OM = \frac{10.000.000 \$}{1.000.000 \text{ ton}} + 200 \$/\text{ton} = 10 \$/\text{ton} + 200 \$/\text{ton} = 210 \$/\text{ton}$
+$$
+\text{OM} = \frac{10.000.000 \,\$}{1.000.000 \,\text{ton}} + 200 \,\$/\text{ton} = 10 \,\$/\text{ton} + 200 \,\$/\text{ton} = 210 \,\$/\text{ton}
+$$
 
 3.  **Marjinal Maliyet:**
 
-    $MM = 200 \$/\text{ton}$
+$$
+\text{MM} = 200 \,\$/\text{ton}
+$$
 
 4.  **Farklı Üretim Seviyelerinde Maliyet Analizi:**
 
@@ -482,38 +555,68 @@ Bir açık ocak bakır madeni için FTM'yi analiz edelim:
 
 1.  **Faaliyet Maliyet Etkeni Oranları:**
 
-    Delme ve Patlatma Oranı = $\frac{15.000.000 \$}{2.000.000 \text{ delik-metre}} = 7,50 \$/\text{delik-metre}$
-    Yükleme Oranı = $\frac{10.000.000 \$}{100.000 \text{ yükleme saati}} = 100 \$/\text{yükleme saati}$
-    Nakliye Oranı = $\frac{25.000.000 \$}{2.500.000 \text{ kamyon-km}} = 10 \$/\text{kamyon-km}$
-    Kırma Oranı = $\frac{20.000.000 \$}{5.000.000 \text{ ton}} = 4 \$/\text{ton}$
-    Öğütme Oranı = $\frac{30.000.000 \$}{4.000.000 \text{ öğütme saati}} = 7,50 \$/\text{öğütme saati}$
+$$
+\text{Delme ve Patlatma Oranı} = \frac{15.000.000 \,\$}{2.000.000 \,\text{delik-metre}} = 7,50 \,\$/\text{delik-metre}
+$$
+
+$$
+\text{Yükleme Oranı} = \frac{10.000.000 \,\$}{100.000 \,\text{yükleme saati}} = 100 \,\$/\text{yükleme saati}
+$$
+
+$$
+\text{Nakliye Oranı} = \frac{25.000.000 \,\$}{2.500.000 \,\text{kamyon-km}} = 10 \,\$/\text{kamyon-km}
+$$
+
+$$
+\text{Kırma Oranı} = \frac{20.000.000 \,\$}{5.000.000 \,\text{ton}} = 4 \,\$/\text{ton}
+$$
+
+$$
+\text{Öğütme Oranı} = \frac{30.000.000 \,\$}{4.000.000 \,\text{öğütme saati}} = 7,50 \,\$/\text{öğütme saati}
+$$
 
 2.  **Birim Başına Faaliyet Maliyetleri (1 ton cevher için):**
 
-    1 ton cevher için varsayımlar:
-    -   0,4 delik-metre kullanılıyor
-    -   0,02 yükleme saati harcanıyor
-    -   0,5 kamyon-kilometre yol kat ediliyor
-    -   1 ton kırma yapılıyor
-    -   0,8 öğütme saati harcanıyor
+1 ton cevher için varsayımlar:
+- 0,4 delik-metre kullanılıyor
+- 0,02 yükleme saati harcanıyor
+- 0,5 kamyon-kilometre yol kat ediliyor
+- 1 ton kırma yapılıyor
+- 0,8 öğütme saati harcanıyor
 
-    Delme ve Patlatma Maliyeti = $7,50 \$/\text{delik-metre} \times 0,4 \text{ delik-metre} = 3,00 \$/\text{ton}$
-    Yükleme Maliyeti = $100 \$/\text{yükleme saati} \times 0,02 \text{ yükleme saati} = 2,00 \$/\text{ton}$
-    Nakliye Maliyeti = $10 \$/\text{kamyon-km} \times 0,5 \text{ kamyon-km} = 5,00 \$/\text{ton}$
-    Kırma Maliyeti = $4 \$/\text{ton} \times 1 \text{ ton} = 4,00 \$/\text{ton}$
-    Öğütme Maliyeti = $7,50 \$/\text{öğütme saati} \times 0,8 \text{ öğütme saati} = 6,00 \$/\text{ton}$
+$$
+\text{Delme ve Patlatma Maliyeti} = 7,50 \,\$/\text{delik-metre} \times 0,4 \,\text{delik-metre} = 3,00 \,\$/\text{ton}
+$$
+
+$$
+\text{Yükleme Maliyeti} = 100 \,\$/\text{yükleme saati} \times 0,02 \,\text{yükleme saati} = 2,00 \,\$/\text{ton}
+$$
+
+$$
+\text{Nakliye Maliyeti} = 10 \,\$/\text{kamyon-km} \times 0,5 \,\text{kamyon-km} = 5,00 \,\$/\text{ton}
+$$
+
+$$
+\text{Kırma Maliyeti} = 4 \,\$/\text{ton} \times 1 \,\text{ton} = 4,00 \,\$/\text{ton}
+$$
+
+$$
+\text{Öğütme Maliyeti} = 7,50 \,\$/\text{öğütme saati} \times 0,8 \,\text{öğütme saati} = 6,00 \,\$/\text{ton}
+$$
 
 3.  **Toplam Birim Maliyet (FTM):**
 
-    Toplam Birim Maliyet $= 3,00 + 2,00 + 5,00 + 4,00 + 6,00 = 20,00 \$/\text{ton}$
+$$
+\text{Toplam Birim Maliyet} = 3,00 + 2,00 + 5,00 + 4,00 + 6,00 = 20,00 \,\$/\text{ton}
+$$
 
 4.  **Toplam Maliyet Dağılımı:**
 
-    Delme ve Patlatma: 3,00 \$/ton (%15)
-    Yükleme: 2,00 \$/ton (%10)
-    Nakliye: 5,00 \$/ton (%25)
-    Kırma: 4,00 \$/ton (%20)
-    Öğütme: 6,00 \$/ton (%30)
+- Delme ve Patlatma: 3,00 \$/ton (%15)
+- Yükleme: 2,00 \$/ton (%10)
+- Nakliye: 5,00 \$/ton (%25)
+- Kırma: 4,00 \$/ton (%20)
+- Öğütme: 6,00 \$/ton (%30)
 
 Bu analiz, hangi faaliyetlerin en yüksek maliyetlere sahip olduğunu gösterir. Bu örnekte öğütme ve nakliye en yüksek maliyetli kalemleri oluşturmaktadır. Bu bilgi, maliyet düşürme çabalarının nereye odaklanması gerektiğini belirlemeye yardımcı olabilir.
 
@@ -558,42 +661,42 @@ Bir açık ocak madeni için yeni bir zenginleştirme tesisi yatırımını YDM 
 
 1.  **Yıllık Nakit Akışları:**
 
-    Yıllık toplam maliyet = İşletme maliyeti + Bakım maliyeti = 10 + 2 = 12 milyon $
+Yıllık toplam maliyet = İşletme maliyeti + Bakım maliyeti = 10 + 2 = 12 milyon $
 
 2.  **Net Bugünkü Değer (NBD):**
 
-    $NBD = -50 + \sum_{t=1}^{14} \frac{-12}{(1 + 0,10)^t} + \frac{-12 + 5}{(1 + 0,10)^{15}}$
-    (Not: Formül, 15. yılda hem maliyet hem de hurda değeri geliri olduğu için basitleştirilmiştir.)
+$NBD = -50 + \sum_{t=1}^{14} \frac{-12}{(1 + 0,10)^t} + \frac{-12 + 5}{(1 + 0,10)^{15}}$
+(Not: Formül, 15. yılda hem maliyet hem de hurda değeri geliri olduğu için basitleştirilmiştir.)
 
-    | Yıl (t) | Nakit Akışı (milyon $) | İskonto Faktörü $(1 + 0,10)^{-t}$ | Bugünkü Değer (milyon $) |
-    | :--- | :--- | :--- | :--- |
-    | 0 | -50 | 1,0000 | -50,0000 |
-    | 1 | -12 | 0,9091 | -10,9092 |
-    | 2 | -12 | 0,8264 | -9,9168 |
-    | 3 | -12 | 0,7513 | -9,0156 |
-    | ... | ... | ... | ... |
-    | 15 | -12 + 5 = -7 | 0,2394 | -1,6758 |
-    | **Toplam** | | | **-141,8174** |
+| Yıl (t) | Nakit Akışı (milyon $) | İskonto Faktörü $(1 + 0,10)^{-t}$ | Bugünkü Değer (milyon $) |
+| :--- | :--- | :--- | :--- |
+| 0 | -50 | 1,0000 | -50,0000 |
+| 1 | -12 | 0,9091 | -10,9092 |
+| 2 | -12 | 0,8264 | -9,9168 |
+| 3 | -12 | 0,7513 | -9,0156 |
+| ... | ... | ... | ... |
+| 15 | -12 + 5 = -7 | 0,2394 | -1,6758 |
+| **Toplam** | | | **-141,8174** |
 
-    (Not: Toplam NBD, yıllık -12 milyonluk anüitenin bugünkü değeri ve hurda değerinin bugünkü değeri ile ilk yatırımın toplamıdır.)
-    NBD = -141.817.400 $
+(Not: Toplam NBD, yıllık -12 milyonluk anüitenin bugünkü değeri ve hurda değerinin bugünkü değeri ile ilk yatırımın toplamıdır.)
+NBD = -141.817.400 $
 
 3.  **Eşdeğer Yıllık Maliyet (EYM):**
 
-    $EYM = -141.817.400 \times \frac{0,10(1 + 0,10)^{15}}{((1 + 0,10)^{15} - 1)}$
-    $EYM = -141.817.400 \times \frac{0,10 \times 4,1772}{3,1772}$
-    $EYM = -141.817.400 \times 0,1315$
-    $EYM = -18.649.000 \$/\text{yıl}$
+$EYM = -141.817.400 \times \frac{0,10(1 + 0,10)^{15}}{((1 + 0,10)^{15} - 1)}$
+$EYM = -141.817.400 \times \frac{0,10 \times 4,1772}{3,1772}$
+$EYM = -141.817.400 \times 0,1315$
+$EYM = -18.649.000 \$/\text{yıl}$
 
-    Bu, tesisin eşdeğer yıllık maliyetinin 18,65 milyon $ olduğunu gösterir.
+Bu, tesisin eşdeğer yıllık maliyetinin 18,65 milyon $ olduğunu gösterir.
 
 4.  **Birim Başına Yaşam Döngüsü Maliyeti:**
 
-    Tesisin yılda 2 milyon ton cevher işlediğini varsayalım:
+Tesisin yılda 2 milyon ton cevher işlediğini varsayalım:
 
-    Birim YDM = $\frac{18,65 \text{ milyon \$/yıl}}{2 \text{ milyon ton/yıl}} = 9,33 \$/\text{ton}$
+Birim YDM = $\frac{18,65 \text{ milyon \$/yıl}}{2 \text{ milyon ton/yıl}} = 9,33 \$/\text{ton}$
 
-    Bu analiz, tesisin ton başına yaşam döngüsü maliyetinin 9,33 $ olduğunu gösterir.
+Bu analiz, tesisin ton başına yaşam döngüsü maliyetinin 9,33 $ olduğunu gösterir.
 
 YDM analizi, bir yatırımın uzun vadeli ekonomik etkilerini değerlendirmek için önemlidir. Bu örnekte tesisin NBD'si negatiftir, bu da yatırımın ekonomik olarak uygun olmayabileceğini gösterebilir. Ancak, diğer faktörler (örneğin, stratejik önem, çevresel faydalar) de dikkate alınmalıdır.
 
@@ -643,29 +746,35 @@ Bir açık ocak altın madeni için üretim planlamasını optimize edelim:
 
 1.  **Optimum Üretim Miktarı:**
 
-    Optimum Üretim Miktarı = $\frac{20.000.000 \$}{(1.800 \$/\text{ons} - 800 \$/\text{ons} - 0,20 \times 1.800 \$/\text{ons})}$
-    Optimum Üretim Miktarı = $\frac{20.000.000 \$}{(1.800 \$/\text{ons} - 800 \$/\text{ons} - 360 \$/\text{ons})}$
-    Optimum Üretim Miktarı = $\frac{20.000.000 \$}{640 \$/\text{ons}} = 31.250 \text{ ons/yıl}$
+Optimum Üretim Miktarı = $\frac{20.000.000 \$}{(1.800 \$/\text{ons} - 800 \$/\text{ons} - 0,20 \times 1.800 \$/\text{ons})}$
+
+Optimum Üretim Miktarı = $\frac{20.000.000 \$}{(1.800 \$/\text{ons} - 800 \$/\text{ons} - 360 \$/\text{ons})}$
+
+Optimum Üretim Miktarı = $\frac{20.000.000 \$}{640 \$/\text{ons}} = 31.250 \text{ ons/yıl}$
 
 2.  **Optimum Dekapaj Oranı:**
 
-    Ortalama cevher tenörünün 2 g/ton (0,064 ons/ton) olduğunu varsayalım:
+Ortalama cevher tenörünün 2 g/ton (0,064 ons/ton) olduğunu varsayalım:
 
-    Cevher Satış Değeri = $0,064 \text{ ons/ton} \times 1.800 \$/\text{ons} = 115,2 \$/\text{ton}$
+Cevher Satış Değeri = $0,064 \text{ ons/ton} \times 1.800 \$/\text{ons} = 115,2 \$/\text{ton}$
 
-    Optimum Dekapaj Oranı = $\frac{(115,2 \$/\text{ton} - 3 \$/\text{ton} - 15 \$/\text{ton} - 0,20 \times 115,2 \$/\text{ton})}{2,5 \$/\text{ton}}$
-    Optimum Dekapaj Oranı = $\frac{(115,2 \$/\text{ton} - 3 \$/\text{ton} - 15 \$/\text{ton} - 23,04 \$/\text{ton})}{2,5 \$/\text{ton}}$
-    Optimum Dekapaj Oranı = $\frac{74,16 \$/\text{ton}}{2,5 \$/\text{ton}} = 29,66$
+Optimum Dekapaj Oranı = $\frac{(115,2 \$/\text{ton} - 3 \$/\text{ton} - 15 \$/\text{ton} - 0,20 \times 115,2 \$/\text{ton})}{2,5 \$/\text{ton}}$
 
-    Bu, ekonomik olarak çıkarılabilir her bir ton cevher için 29,66 ton örtü kazılabileceğini gösterir.
+Optimum Dekapaj Oranı = $\frac{(115,2 \$/\text{ton} - 3 \$/\text{ton} - 15 \$/\text{ton} - 23,04 \$/\text{ton})}{2,5 \$/\text{ton}}$
+
+Optimum Dekapaj Oranı = $\frac{74,16 \$/\text{ton}}{2,5 \$/\text{ton}} = 29,66$
+
+Bu, ekonomik olarak çıkarılabilir her bir ton cevher için 29,66 ton örtü kazılabileceğini gösterir.
 
 3.  **Optimum Kesme Tenörü:**
 
-    Optimum Kesme Tenörü = $\frac{(15 \$/\text{ton} + 0)}{[(1.800 \$/\text{ons} \times 0,90) - 20 \$/\text{ons}]}$
-    Optimum Kesme Tenörü = $\frac{15 \$/\text{ton}}{(1.620 \$/\text{ons} - 20 \$/\text{ons})}$
-    Optimum Kesme Tenörü = $\frac{15 \$/\text{ton}}{1.600 \$/\text{ons}} = 0,009375 \text{ ons/ton} = 0,29 \text{ g/ton}$
+Optimum Kesme Tenörü = $\frac{(15 \$/\text{ton} + 0)}{[(1.800 \$/\text{ons} \times 0,90) - 20 \$/\text{ons}]}$
 
-    Bu, tenörü 0,29 g/ton'dan düşük olan cevherin ekonomik olmadığını gösterir.
+Optimum Kesme Tenörü = $\frac{15 \$/\text{ton}}{(1.620 \$/\text{ons} - 20 \$/\text{ons})}$
+
+Optimum Kesme Tenörü = $\frac{15 \$/\text{ton}}{1.600 \$/\text{ons}} = 0,009375 \text{ ons/ton} = 0,29 \text{ g/ton}$
+
+Bu, tenörü 0,29 g/ton'dan düşük olan cevherin ekonomik olmadığını gösterir.
 
 Üretim planlama optimizasyonu, madencilik operasyonlarının ekonomik verimliliğini artırmak için kritik öneme sahiptir. Yukarıdaki hesaplamalar optimum üretim miktarını, dekapaj oranını ve kesme tenörünü belirlemeye yardımcı olabilir.
 
@@ -714,37 +823,39 @@ Bir açık ocak bakır madeni için otonom kamyon filosu yatırımını analiz e
 
 1.  **Yıllık Maliyet Tasarrufu:**
 
-    İşçilik Tasarrufu = $5.000.000 \$/\text{yıl} - 2.000.000 \$/\text{yıl} = 3.000.000 \$/\text{yıl}$
-    Yakıt Tasarrufu = $(10.000.000 \text{ l/yıl} - 8.500.000 \text{ l/yıl}) \times 1,2 \$/\text{l} = 1.800.000 \$/\text{yıl}$
-    Bakım Tasarrufu = $4.000.000 \$/\text{yıl} - 3.000.000 \$/\text{yıl} = 1.000.000 \$/\text{yıl}$
+İşçilik Tasarrufu = $5.000.000 \$/\text{yıl} - 2.000.000 \$/\text{yıl} = 3.000.000 \$/\text{yıl}$
 
-    Toplam Yıllık Tasarruf = $3.000.000 + 1.800.000 + 1.000.000 = 5.800.000 \$/\text{yıl}$
+Yakıt Tasarrufu = $(10.000.000 \text{ l/yıl} - 8.500.000 \text{ l/yıl}) \times 1,2 \$/\text{l} = 1.800.000 \$/\text{yıl}$
+
+Bakım Tasarrufu = $4.000.000 \$/\text{yıl} - 3.000.000 \$/\text{yıl} = 1.000.000 \$/\text{yıl}$
+
+Toplam Yıllık Tasarruf = $3.000.000 + 1.800.000 + 1.000.000 = 5.800.000 \$/\text{yıl}$
 
 2.  **Geri Ödeme Süresi:**
 
-    Geri Ödeme Süresi = $\frac{30.000.000 \$}{5.800.000 \$/\text{yıl}} = 5,17 \text{ yıl}$
+Geri Ödeme Süresi = $\frac{30.000.000 \$}{5.800.000 \$/\text{yıl}} = 5,17 \text{ yıl}$
 
 3.  **Net Bugünkü Değer (NBD):**
 
-    $NBD = -30.000.000 + \sum_{t=1}^{10} \frac{5.800.000}{(1 + 0,08)^t}$
+$NBD = -30.000.000 + \sum_{t=1}^{10} \frac{5.800.000}{(1 + 0,08)^t}$
 
-    | Yıl (t) | Nakit Akışı ($) | İskonto Faktörü $(1 + 0,08)^{-t}$ | Bugünkü Değer ($) |
-    | :--- | :--- | :--- | :--- |
-    | 0 | -30.000.000 | 1,0000 | -30.000.000 |
-    | 1 | 5.800.000 | 0,9259 | 5.370.220 |
-    | 2 | 5.800.000 | 0,8573 | 4.972.340 |
-    | 3 | 5.800.000 | 0,7938 | 4.604.040 |
-    | ... | ... | ... | ... |
-    | 10 | 5.800.000 | 0,4632 | 2.686.560 |
-    | **Toplam NBD** | | | **9.385.160** |
+| Yıl (t) | Nakit Akışı ($) | İskonto Faktörü $(1 + 0,08)^{-t}$ | Bugünkü Değer ($) |
+| :--- | :--- | :--- | :--- |
+| 0 | -30.000.000 | 1,0000 | -30.000.000 |
+| 1 | 5.800.000 | 0,9259 | 5.370.220 |
+| 2 | 5.800.000 | 0,8573 | 4.972.340 |
+| 3 | 5.800.000 | 0,7938 | 4.604.040 |
+| ... | ... | ... | ... |
+| 10 | 5.800.000 | 0,4632 | 2.686.560 |
+| **Toplam NBD** | | | **9.385.160** |
 
-    Pozitif bir NBD, yatırımın ekonomik olarak uygun olduğunu gösterir.
+Pozitif bir NBD, yatırımın ekonomik olarak uygun olduğunu gösterir.
 
 4.  **İç Verim Oranı (IRR):**
 
-    IRR, NBD'yi sıfıra eşitleyen iskonto oranıdır. Deneme yanılma yoluyla veya finansal hesap makineleri/yazılımlar kullanılarak hesaplanabilir.
+IRR, NBD'yi sıfıra eşitleyen iskonto oranıdır. Deneme yanılma yoluyla veya finansal hesap makineleri/yazılımlar kullanılarak hesaplanabilir.
 
-    Bu örnekte IRR yaklaşık %15'tir, bu da yatırımın %8'lik iskonto oranından daha yüksek bir getiri sağladığını gösterir.
+Bu örnekte IRR yaklaşık %15'tir, bu da yatırımın %8'lik iskonto oranından daha yüksek bir getiri sağladığını gösterir.
 
 Teknoloji adaptasyonu, madencilik operasyonlarının verimliliğini artırmak ve maliyetleri düşürmek için önemli bir stratejidir. Yukarıdaki analiz, otonom kamyon filosu yatırımının ekonomik olarak uygun olduğunu göstermektedir.
 
@@ -791,31 +902,34 @@ Bir açık ocak madeni için patlayıcı madde tedarik zincirini optimize edelim
 
 1.  **Ekonomik Sipariş Miktarı (ESM):**
 
-    $ESM = \sqrt{\frac{2 \times 1.000 \text{ ton} \times 500 \$}{200 \$/\text{ton}}} = \sqrt{5.000} = 70,71 \text{ ton}$
+$ESM = \sqrt{\frac{2 \times 1.000 \text{ ton} \times 500 \$}{200 \$/\text{ton}}} = \sqrt{5.000} = 70,71 \text{ ton}$
 
-    Pratikte bu 70 ton olarak yuvarlanabilir.
+Pratikte bu 70 ton olarak yuvarlanabilir.
 
 2.  **Toplam Tedarik Zinciri Maliyeti:**
 
-    Sipariş sayısı = 1.000 ton / 70 ton = 14,29 ≈ 14 sipariş/yıl
+Sipariş sayısı = 1.000 ton / 70 ton = 14,29 ≈ 14 sipariş/yıl
 
-    Ortalama envanter = 70 ton / 2 = 35 ton
+Ortalama envanter = 70 ton / 2 = 35 ton
 
-    Satın Alma Maliyeti = $2.000 \$/\text{ton} \times 1.000 \text{ ton} = 2.000.000 \$$
-    Sipariş Maliyeti = $500 \$/\text{sipariş} \times 14 \text{ sipariş} = 7.000 \$$
-    Stoklama Maliyeti = $200 \$/\text{ton/yıl} \times 35 \text{ ton} = 7.000 \$$
-    Stoksuz Kalma Maliyeti = $5.000 \$/\text{ton} \times 0,02 \times 1.000 \text{ ton} = 100.000 \$$
+Satın Alma Maliyeti = $2.000 \$/\text{ton} \times 1.000 \text{ ton} = 2.000.000 \$$
 
-    Toplam Maliyet = $2.000.000 + 7.000 + 7.000 + 100.000 = 2.114.000 \$$
+Sipariş Maliyeti = $500 \$/\text{sipariş} \times 14 \text{ sipariş} = 7.000 \$$
+
+Stoklama Maliyeti = $200 \$/\text{ton/yıl} \times 35 \text{ ton} = 7.000 \$$
+    
+Stoksuz Kalma Maliyeti = $5.000 \$/\text{ton} \times 0,02 \times 1.000 \text{ ton} = 100.000 \$$
+
+Toplam Maliyet = $2.000.000 + 7.000 + 7.000 + 100.000 = 2.114.000 \$$
 
 3.  **Tedarikçi Karşılaştırması:**
 
-    Üç tedarikçi olduğunu ve aşağıdaki ağırlıkların kullanıldığını varsayalım:
+Üç tedarikçi olduğunu ve aşağıdaki ağırlıkların kullanıldığını varsayalım:
 
-    -   Fiyat: $w_1$ = 0,40
-    -   Kalite: $w_2$ = 0,30
-    -   Teslimat: $w_3$ = 0,20
-    -   Esneklik: $w_4$ = 0,10
+- Fiyat: $w_1$ = 0,40
+- Kalite: $w_2$ = 0,30
+- Teslimat: $w_3$ = 0,20
+- Esneklik: $w_4$ = 0,10
 
 | Tedarikçi | Fiyat Puanı (0-100) | Kalite Puanı (0-100) | Teslimat Puanı (0-100) | Esneklik Puanı (0-100) | Toplam Puan |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -824,7 +938,9 @@ Bir açık ocak madeni için patlayıcı madde tedarik zincirini optimize edelim
 | C | 70 | 95 | 80 | 90 | ? |
 
 Tedarikçi A Puanı = $0,40 \times 80 + 0,30 \times 90 + 0,20 \times 70 + 0,10 \times 60 = 32 + 27 + 14 + 6 = 79$
+
 Tedarikçi B Puanı = $0,40 \times 90 + 0,30 \times 75 + 0,20 \times 85 + 0,10 \times 70 = 36 + 22,5 + 17 + 7 = 82,5$
+
 Tedarikçi C Puanı = $0,40 \times 70 + 0,30 \times 95 + 0,20 \times 80 + 0,10 \times 90 = 28 + 28,5 + 16 + 9 = 81,5$
 
 Bu değerlendirmeye göre, Tedarikçi B en yüksek puana sahiptir ve seçilmelidir.
@@ -889,44 +1005,48 @@ Bir açık ocak madeni için bir ekskavatör bakım programını analiz edelim:
 
 1.  **Ekipman Kullanılabilirliği:**
 
-    Kullanılabilirlik = $\frac{7.000 \text{ saat}}{(7.000 \text{ saat} + 1.000 \text{ saat})} = 0,875$ (veya %87,5)
+Kullanılabilirlik = $\frac{7.000 \text{ saat}}{(7.000 \text{ saat} + 1.000 \text{ saat})} = 0,875$ (veya %87,5)
 
 2.  **Arızalar Arası Ortalama Süre (MTBF):**
 
-    MTBF = $\frac{7.000 \text{ saat}}{50 \text{ arıza}} = 140 \text{ saat/arıza}$
+MTBF = $\frac{7.000 \text{ saat}}{50 \text{ arıza}} = 140 \text{ saat/arıza}$
 
 3.  **Ortalama Tamir Süresi (MTTR):**
 
-    MTTR = $\frac{1.000 \text{ saat}}{50 \text{ arıza}} = 20 \text{ saat/arıza}$
+MTTR = $\frac{1.000 \text{ saat}}{50 \text{ arıza}} = 20 \text{ saat/arıza}$
 
 4.  **Bakım Maliyeti Oranı:**
 
-    Toplam Bakım Maliyeti = $300.000 \$ + 700.000 \$ = 1.000.000 \$$
-    Bakım Maliyeti Oranı = $\frac{1.000.000 \$}{5.000.000 \$} = 0,20$ (veya %20)
+Toplam Bakım Maliyeti = $300.000 \$ + 700.000 \$ = 1.000.000 \$$
+
+Bakım Maliyeti Oranı = $\frac{1.000.000 \$}{5.000.000 \$} = 0,20$ (veya %20)
 
 5.  **Planlı Bakım Uyum Oranı:**
 
-    Planlı Bakım Uyum Oranı = $\frac{500 \text{ saat}}{(500 \text{ saat} + 1.000 \text{ saat})} = 0,33$ (veya %33)
+Planlı Bakım Uyum Oranı = $\frac{500 \text{ saat}}{(500 \text{ saat} + 1.000 \text{ saat})} = 0,33$ (veya %33)
 
 6.  **Kestirimci Bakım Programı Uygulamanın Etkisi:**
 
-    Kestirimci bakım programı uygulandıktan sonra varsayımlar:
+Kestirimci bakım programı uygulandıktan sonra varsayımlar:
 
-    -   Duruş süresi 1.000 saatten 500 saate düşüyor
-    -   Önleyici bakım süresi 500 saatten 700 saate çıkıyor
-    -   Düzeltici bakım süresi 1.000 saatten 300 saate düşüyor
-    -   Toplam bakım maliyeti 1.000.000 $'dan 800.000 $'a düşüyor
+- Duruş süresi 1.000 saatten 500 saate düşüyor
+- Önleyici bakım süresi 500 saatten 700 saate çıkıyor
+- Düzeltici bakım süresi 1.000 saatten 300 saate düşüyor
+- Toplam bakım maliyeti 1.000.000 $'dan 800.000 $'a düşüyor
 
-    Yeni Kullanılabilirlik = $\frac{7.000 \text{ saat}}{(7.000 \text{ saat} + 500 \text{ saat})} = 0,933$ (veya %93,3)
-    Kullanılabilirlik Artışı = $0,933 - 0,875 = 0,058$ (veya %5,8)
+Yeni Kullanılabilirlik = $\frac{7.000 \text{ saat}}{(7.000 \text{ saat} + 500 \text{ saat})} = 0,933$ (veya %93,3)
 
-    Ek Üretim Saati = $0,058 \times (7000+1000) \text{ saat} \approx 464 \text{ saat}$
-    Ek Üretim Hacmi = $464 \text{ saat} \times 1.000 \text{ ton/saat} = 464.000 \text{ ton}$
-    Ek Katkı Payı = $464.000 \text{ ton} \times (50 \$/\text{ton} - 20 \$/\text{ton}) = 13.920.000 \$$
+Kullanılabilirlik Artışı = $0,933 - 0,875 = 0,058$ (veya %5,8)
 
-    Bakım Maliyeti Tasarrufu = $1.000.000 \$ - 800.000 \$ = 200.000 \$$
+Ek Üretim Saati = $0,058 \times (7000+1000) \text{ saat} \approx 464 \text{ saat}$
 
-    Toplam Fayda = $13.920.000 \$ + 200.000 \$ = 14.120.000 \$$
+Ek Üretim Hacmi = $464 \text{ saat} \times 1.000 \text{ ton/saat} = 464.000 \text{ ton}$
+
+Ek Katkı Payı = $464.000 \text{ ton} \times (50 \$/\text{ton} - 20 \$/\text{ton}) = 13.920.000 \$
+
+Bakım Maliyeti Tasarrufu = $1.000.000 \$ - 800.000 \$ = 200.000 \$
+
+Toplam Fayda = $13.920.000 \$ + 200.000 \$ = 14.120.000 \$
 
 Bu analiz, kestirimci bir bakım programı uygulamanın önemli ekonomik faydalar sağlayabileceğini göstermektedir.
 
