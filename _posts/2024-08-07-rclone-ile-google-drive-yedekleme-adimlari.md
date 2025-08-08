@@ -6,6 +6,8 @@ layout: post
 permalink: /rclone-ile-google-drive-yedekleme-adimlari/
 redirect_from:
   - /rclone-ile-google-drive-yedekleme-adimlari
+  - /easy-steps-to-backup-with-rclone-on-google-drive
+  - /easy-steps-to-backup-with-rclone-on-google-drive/
 categories: [web]
 tags: [rclone, google, drive, yedekleme, cloudpanel, web, linux, windows, guvenlik]
 image: backup.jpg
