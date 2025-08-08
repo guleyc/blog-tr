@@ -52,22 +52,36 @@ Sabit maliyetlerin hesaplanması ve analizi için çeşitli formüller kullanıl
 
 **Birim Sabit Maliyet (FCU):**
 
-    FCU = Toplam Sabit Maliyet / Üretim Miktarı
+$$
+\mathrm{FCU} = \frac{\text{Toplam Sabit Maliyet}}{\text{Üretim Miktarı}}
+$$
 
 **Sermaye Maliyeti (Doğrusal Amortisman):**
 
-    Doğrusal Amortisman Oranı = 1 / Faydalı Ömür (yıl)
-    Yıllık Amortisman = Ekipman Maliyeti × Doğrusal Amortisman Oranı
+$$
+\text{Doğrusal Amortisman Oranı} = \frac{1}{\text{Faydalı Ömür (yıl)}}
+$$
+$$
+\text{Yıllık Amortisman} = \text{Ekipman Maliyeti} \times \text{Doğrusal Amortisman Oranı}
+$$
 
 **Sermaye Maliyeti (Azalan Bakiyeler Amortismanı):**
 
-    Azalan Bakiye Oranı = 2 × Doğrusal Amortisman Oranı
-    Yıllık Amortisman = Kalan Defter Değeri × Azalan Bakiye Oranı
+$$
+\text{Azalan Bakiye Oranı} = 2 \times \text{Doğrusal Amortisman Oranı}
+$$
+$$
+\text{Yıllık Amortisman} = \text{Kalan Defter Değeri} \times \text{Azalan Bakiye Oranı}
+$$
 
 **Sermaye Maliyeti (Üretim Birimi Amortismanı):**
 
-    Birim Başına Amortisman = (Ekipman Maliyeti - Hurda Değeri) / Tahmini Toplam Üretim
-    Yıllık Amortisman = Birim Başına Amortisman × Yıllık Üretim
+$$
+\text{Birim Başına Amortisman} = \frac{\text{Ekipman Maliyeti} - \text{Hurda Değeri}}{\text{Tahmini Toplam Üretim}}
+$$
+$$
+\text{Yıllık Amortisman} = \text{Birim Başına Amortisman} \times \text{Yıllık Üretim}
+$$
 
 #### 1.1.2. Sabit Maliyet Analizi Örneği
 
@@ -105,7 +119,7 @@ Bir açık ocak kömür madeni için sabit maliyetleri analiz edelim:
     Birim Başına Amortisman $= \frac{(5.000.000 \$ - 500.000 \$)}{10.000.000 \text{ ton}} = 0,45 \$/\text{ton}$
     Yıllık Amortisman (1 milyon ton için) $= 0,45 \$/\text{ton} \times 1.000.000 \text{ ton} = 450.000 \$$
 
-Bu hesaplamalar, farklı amortisman yöntemlerinin sermaye maliyetlerini nasıl etkilediğini gösterir. Doğrusal amortisman, ekipmanın faydalı ömrü boyunca eşit amortisman sağlarken, azalan bakiyeler yöntemi ilk yıllarda daha yüksek amortisman sağlar. Üretim miktarı yöntemi ise amortismanı ekipman kullanımına göre hesaplar.
+Bu hesaplamalar, farklı amortisan yöntemlerinin sermaye maliyetlerini nasıl etkilediğini gösterir. Doğrusal amortisman, ekipmanın faydalı ömrü boyunca eşit amortisman sağlarken, azalan bakiyeler yöntemi ilk yıllarda daha yüksek amortisman sağlar. Üretim miktarı yöntemi ise amortismanı ekipman kullanımına göre hesaplar.
 
 ### 1.2. Değişken Maliyetler
 
@@ -120,29 +134,41 @@ Değişken maliyetler, üretim hacmiyle birlikte değişen maliyetlerdir. Açık
 
 Değişken maliyetlerin hesaplanması ve analizinde çeşitli formüller kullanılabilir:
 
-**Birim Başına Değişken Maliyet (BBDM):**
+**Birim Değişken Maliyet (VCU):**
 
-$BBDM = \frac{\text{Toplam Değişken Maliyetler}}{\text{Üretim Hacmi}}$
+$$
+\mathrm{VCU} = \frac{\text{Toplam Değişken Maliyet}}{\text{Üretim Miktarı}}
+$$
 
-**Toplam Değişken Maliyet (TDM):**
+**Toplam Değişken Maliyet (TVC):**
 
-$TDM = BBDM \times \text{Üretim Hacmi}$
+$$
+\mathrm{TVC} = \mathrm{VCU} \times \text{Üretim Miktarı}
+$$
 
 **Enerji Maliyeti:**
 
-Enerji Maliyeti = Birim Enerji Tüketimi × Birim Enerji Fiyatı × Üretim Hacmi
+$$
+\text{Enerji Maliyeti} = \text{Birim Enerji Tüketimi} \times \text{Birim Enerji Fiyatı} \times \text{Üretim Miktarı}
+$$
 
 **Patlayıcı Maliyeti:**
 
-Patlayıcı Maliyeti = Patlayıcı Tüketim Oranı (kg/ton) × Patlayıcı Birim Fiyatı (\$/kg) × Üretim Hacmi (ton)
+$$
+\text{Patlayıcı Maliyeti} = \text{Patlayıcı Tüketim Oranı (kg/ton)} \times \text{Patlayıcı Birim Fiyatı (\$/kg)} \times \text{Üretim Miktarı (ton)}
+$$
 
-**Nakliye Maliyeti:**
+**Taşıma Maliyeti:**
 
-Nakliye Maliyeti = Nakliye Mesafesi (km) × Birim Nakliye Maliyeti (\$/ton-km) × Üretim Hacmi (ton)
+$$
+\text{Taşıma Maliyeti} = \text{Taşıma Mesafesi (km)} \times \text{Birim Taşıma Maliyeti (\$/ton-km)} \times \text{Üretim Miktarı (ton)}
+$$
 
 **Bakım Maliyeti:**
 
-Bakım Maliyeti = Ekipman Değeri × Bakım Oranı (%)
+$$
+\text{Bakım Maliyeti} = \text{Ekipman Değeri} \times \text{Bakım Oranı (\%)}
+$$
 
 #### 1.2.2. Değişken Maliyet Analizi Örneği
 
@@ -197,39 +223,59 @@ Sabit ve değişken maliyetler, açık ocak madenciliği operasyonlarının kâr
 
 Kârlılık analizinde kullanılan temel formüller şunlardır:
 
-**Toplam Maliyet (TM):**
+**Toplam Maliyet (TC):**
 
-$TM = \text{Toplam Sabit Maliyetler} + \text{Toplam Değişken Maliyetler}$
+$$
+\mathrm{TC} = \text{Toplam Sabit Maliyet} + \text{Toplam Değişken Maliyet}
+$$
 
-**Birim Maliyet (BM):**
+**Birim Maliyet (UC):**
 
-$BM = \frac{TM}{\text{Üretim Hacmi}} = BBSM + BBDM$
+$$
+\mathrm{UC} = \frac{\mathrm{TC}}{\text{Üretim Miktarı}} = \mathrm{FCU} + \mathrm{VCU}
+$$
 
-**Katkı Payı (KP):**
+**Katkı Marjı (CM):**
 
-$KP = \text{Satış Fiyatı} - BBDM$
+$$
+\mathrm{CM} = \text{Satış Fiyatı} - \mathrm{VCU}
+$$
 
-**Katkı Payı Oranı (KPO):**
+**Katkı Marjı Oranı (CMR):**
 
-$KPO = \frac{KP}{\text{Satış Fiyatı}}$
+$$
+\mathrm{CMR} = \frac{\mathrm{CM}}{\text{Satış Fiyatı}}
+$$
 
-**Başabaş Noktası (BN) (Birim olarak):**
+**Başabaş Noktası (BEP) (Birim):**
 
-$BN (\text{birim}) = \frac{\text{Toplam Sabit Maliyetler}}{KP}$
+$$
+\mathrm{BEP}_{\text{birim}} = \frac{\text{Toplam Sabit Maliyet}}{\mathrm{CM}}
+$$
 
-**Başabaş Noktası (BN) (Değer olarak):**
+**Başabaş Noktası (BEP) (Değer):**
 
-$BN (\text{değer}) = \frac{\text{Toplam Sabit Maliyetler}}{KPO}$
+$$
+\mathrm{BEP}_{\text{değer}} = \frac{\text{Toplam Sabit Maliyet}}{\mathrm{CMR}}
+$$
 
 **Kâr:**
 
-Kâr = Toplam Gelir - Toplam Maliyet
-Kâr = (Satış Fiyatı × Üretim Hacmi) - (BBSM × Üretim Hacmi + BBDM × Üretim Hacmi)
-Kâr = Üretim Hacmi × (Satış Fiyatı - BBSM - BBDM)
+$$
+\text{Kâr} = \text{Toplam Gelir} - \text{Toplam Maliyet}
+$$
+$$
+\text{Kâr} = (\text{Satış Fiyatı} \times \text{Üretim Miktarı}) - (\mathrm{FCU} \times \text{Üretim Miktarı} + \mathrm{VCU} \times \text{Üretim Miktarı})
+$$
+$$
+\text{Kâr} = \text{Üretim Miktarı} \times (\text{Satış Fiyatı} - \mathrm{FCU} - \mathrm{VCU})
+$$
 
 **Kâr Marjı:**
 
-Kâr Marjı = $\frac{\text{Kâr}}{\text{Toplam Gelir}}$
+$$
+\text{Kâr Marjı} = \frac{\text{Kâr}}{\text{Toplam Gelir}}
+$$
 
 #### 1.3.2. Kârlılık Analizi Örneği
 
@@ -314,32 +360,24 @@ Toplam Maliyet Yöntemi (TMY), en basit maliyet analizi yöntemlerinden biridir.
 
 **Toplam Maliyet Fonksiyonu:**
 
-$TM = TSM + TDM$
-$TM = TSM + (BBDM \times Q)$
-
-Burada:
-
--   $TM$ = Toplam Maliyet
--   $TSM$ = Toplam Sabit Maliyetler
--   $TDM$ = Toplam Değişken Maliyetler
--   $BBDM$ = Birim Başına Değişken Maliyet
--   $Q$ = Üretim Hacmi
+$$
+\mathrm{TC} = \mathrm{TFC} + \mathrm{TVC}
+$$
+$$
+\mathrm{TC} = \mathrm{TFC} + (\mathrm{VCU} \times Q)
+$$
 
 **Ortalama Maliyet Fonksiyonu:**
 
-$OM = \frac{TM}{Q} = \frac{TSM}{Q} + BBDM$
-
-Burada:
-
--   $OM$ = Ortalama Maliyet (Birim Maliyet)
+$$
+\mathrm{AC} = \frac{\mathrm{TC}}{Q} = \frac{\mathrm{TFC}}{Q} + \mathrm{VCU}
+$$
 
 **Marjinal Maliyet Fonksiyonu:**
 
-$MM = \frac{d(TM)}{dQ} = BBDM$
-
-Burada:
-
--   $MM$ = Marjinal Maliyet
+$$
+\mathrm{MC} = \frac{d(\mathrm{TC})}{dQ} = \mathrm{VCU}
+$$
 
 #### 2.1.2. TMY Analizi Örneği
 
@@ -393,19 +431,27 @@ Faaliyet Tabanlı Maliyetleme (FTM), maliyetleri faaliyetlere tahsis ederek daha
 
 **Faaliyet Havuzu Maliyeti:**
 
-Faaliyet Havuzu Maliyeti = $\Sigma (\text{Faaliyetle İlgili Tüm Maliyetler})$
+$$
+\text{Faaliyet Havuzu Maliyeti} = \sum \text{(Faaliyetle İlgili Tüm Maliyetler)}
+$$
 
-**Faaliyet Maliyet Etkeni Oranı:**
+**Faaliyet Maliyet Etmeni Oranı:**
 
-Faaliyet Maliyet Etkeni Oranı = $\frac{\text{Faaliyet Havuzu Maliyeti}}{\text{Faaliyet Maliyet Etkeni Miktarı}}$
+$$
+\text{Faaliyet Maliyet Etmeni Oranı} = \frac{\text{Faaliyet Havuzu Maliyeti}}{\text{Faaliyet Maliyet Etmeni Miktarı}}
+$$
 
 **Ürüne Atanan Faaliyet Maliyeti:**
 
-Ürüne Atanan Faaliyet Maliyeti = Faaliyet Maliyet Etkeni Oranı × Ürünün Tükettiği Faaliyet Miktarı
+$$
+\text{Ürüne Atanan Faaliyet Maliyeti} = \text{Faaliyet Maliyet Etmeni Oranı} \times \text{Ürün Tarafından Tüketilen Faaliyet Miktarı}
+$$
 
-**Toplam Ürün Maliyeti (FTM):**
+**Toplam Ürün Maliyeti (ABC):**
 
-Toplam Ürün Maliyeti = $\Sigma (\text{Ürüne Atanan Tüm Faaliyet Maliyetleri})$
+$$
+\text{Toplam Ürün Maliyeti} = \sum \text{(Ürüne Atanan Tüm Faaliyet Maliyetleri)}
+$$
 
 #### 2.2.2. FTM Analizi Örneği
 
@@ -472,28 +518,23 @@ Yaşam Döngüsü Maliyetlemesi (YDM), bir madencilik projesinin tüm yaşam dö
 
 #### 2.3.1. YDM Formülleri
 
-**Net Bugünkü Değer (NBD):**
+**Net Bugünkü Değer (NPV):**
 
-$NBD = \sum \frac{C_t}{(1 + r)^t} - C_0$
+$$
+\mathrm{NPV} = \sum \left[ \frac{C_t}{(1 + r)^t} \right] - C_0
+$$
 
-Burada:
+**Eşdeğer Yıllık Maliyet (EAC):**
 
--   $C_t$ = t yılındaki nakit akışı
--   $r$ = İskonto oranı
--   $t$ = Zaman (yıl)
--   $C_0$ = Başlangıç yatırımı
-
-**Eşdeğer Yıllık Maliyet (EYM):**
-
-$EYM = NBD \times \frac{r(1 + r)^n}{((1 + r)^n - 1)}$
-
-Burada:
-
--   $n$ = Proje ömrü (yıl)
+$$
+\mathrm{EAC} = \mathrm{NPV} \times \left[ \frac{r(1 + r)^n}{(1 + r)^n - 1} \right]
+$$
 
 **Toplam Yaşam Döngüsü Maliyeti:**
 
-YDM = Yatırım Maliyeti + $\sum \frac{\text{İşletme Maliyeti}}{(1 + r)^t} + \sum \frac{\text{Bakım Maliyeti}}{(1 + r)^t} + \frac{\text{Hurda Değeri}}{(1 + r)^n}$
+$$
+\mathrm{LCC} = \text{Yatırım Maliyeti} + \sum \left[ \frac{\text{İşletme Maliyeti}}{(1 + r)^t} \right] + \sum \left[ \frac{\text{Bakım Maliyeti}}{(1 + r)^t} \right] + \left[ \frac{\text{Hurda Değeri}}{(1 + r)^n} \right]
+$$
 
 #### 2.3.2. YDM Analizi Örneği
 
@@ -559,17 +600,23 @@ YDM analizi, bir yatırımın uzun vadeli ekonomik etkilerini değerlendirmek i�
 
 #### 3.1.1. Üretim Planlama Optimizasyonu Formülleri
 
-**Optimum Üretim Hacmi:**
+**Optimum Üretim Miktarı:**
 
-Optimum Üretim Hacmi = $\frac{\text{Toplam Sabit Maliyetler}}{(\text{Satış Fiyatı} - \text{Birim Değişken Maliyet} - \text{Hedef Kâr Marjı} \times \text{Satış Fiyatı})}$
+$$
+\text{Optimum Üretim Miktarı} = \frac{\text{Toplam Sabit Maliyet}}{\text{Satış Fiyatı} - \text{Birim Değişken Maliyet} - \text{Hedef Kâr Marjı} \times \text{Satış Fiyatı}}
+$$
 
 **Optimum Dekapaj Oranı:**
 
-Optimum Dekapaj Oranı = $\frac{(\text{Cevher Satış Değeri} - \text{Cevher Çıkarma Maliyeti} - \text{İşleme Maliyeti} - \text{Hedef Kâr})}{\text{Örtü Kazı Maliyeti}}$
+$$
+\text{Optimum Dekapaj Oranı} = \frac{\text{Cevher Satış Değeri} - \text{Cevher Kazı Maliyeti} - \text{Zenginleştirme Maliyeti} - \text{Hedef Kâr}}{\text{Steril Kazı Maliyeti}}
+$$
 
-**Optimum Kesme Tenörü:**
+**Optimum Tenör Sınırı:**
 
-Optimum Kesme Tenörü = $\frac{(\text{İşleme Maliyeti} + \text{Satış Maliyeti})}{[(\text{Metal Fiyatı} \times \text{Metal Geri Kazanım Oranı}) - \text{Rafineri Maliyeti}]}$
+$$
+\text{Optimum Tenör Sınırı} = \frac{\text{Zenginleştirme Maliyeti} + \text{Satış Maliyeti}}{(\text{Metal Fiyatı} \times \text{Metal Geri Kazanım Oranı}) - \text{Rafineri Maliyeti}}
+$$
 
 #### 3.1.2. Üretim Planlama Optimizasyonu Örneği
 
@@ -589,11 +636,11 @@ Bir açık ocak altın madeni için üretim planlamasını optimize edelim:
 
 **Hesaplamalar:**
 
-1.  **Optimum Üretim Hacmi:**
+1.  **Optimum Üretim Miktarı:**
 
-    Optimum Üretim Hacmi = $\frac{20.000.000 \$}{(1.800 \$/\text{ons} - 800 \$/\text{ons} - 0,20 \times 1.800 \$/\text{ons})}$
-    Optimum Üretim Hacmi = $\frac{20.000.000 \$}{(1.800 \$/\text{ons} - 800 \$/\text{ons} - 360 \$/\text{ons})}$
-    Optimum Üretim Hacmi = $\frac{20.000.000 \$}{640 \$/\text{ons}} = 31.250 \text{ ons/yıl}$
+    Optimum Üretim Miktarı = $\frac{20.000.000 \$}{(1.800 \$/\text{ons} - 800 \$/\text{ons} - 0,20 \times 1.800 \$/\text{ons})}$
+    Optimum Üretim Miktarı = $\frac{20.000.000 \$}{(1.800 \$/\text{ons} - 800 \$/\text{ons} - 360 \$/\text{ons})}$
+    Optimum Üretim Miktarı = $\frac{20.000.000 \$}{640 \$/\text{ons}} = 31.250 \text{ ons/yıl}$
 
 2.  **Optimum Dekapaj Oranı:**
 
@@ -615,7 +662,7 @@ Bir açık ocak altın madeni için üretim planlamasını optimize edelim:
 
     Bu, tenörü 0,29 g/ton'dan düşük olan cevherin ekonomik olmadığını gösterir.
 
-Üretim planlama optimizasyonu, madencilik operasyonlarının ekonomik verimliliğini artırmak için kritik öneme sahiptir. Yukarıdaki hesaplamalar optimum üretim hacmini, dekapaj oranını ve kesme tenörünü belirlemeye yardımcı olabilir.
+Üretim planlama optimizasyonu, madencilik operasyonlarının ekonomik verimliliğini artırmak için kritik öneme sahiptir. Yukarıdaki hesaplamalar optimum üretim miktarını, dekapaj oranını ve kesme tenörünü belirlemeye yardımcı olabilir.
 
 ### 3.2. Teknoloji Adaptasyonu
 
@@ -623,19 +670,23 @@ Yeni teknolojiler, üretim verimliliğini artırarak ve maliyetleri düşürerek
 
 #### 3.2.1. Teknoloji Adaptasyonu Formülleri
 
-**Teknoloji Yatırımı Geri Ödeme Süresi:**
+**Teknoloji Yatırımı Geri Dönüş Süresi:**
 
-Geri Ödeme Süresi = $\frac{\text{Teknoloji Yatırımı}}{\text{Yıllık Maliyet Tasarrufu}}$
+$$
+\text{Geri Dönüş Süresi} = \frac{\text{Teknoloji Yatırımı}}{\text{Yıllık Maliyet Tasarrufu}}
+$$
 
 **Teknoloji Yatırımı İç Verim Oranı (IRR):**
 
-Aşağıdaki denklemi sağlayan r değeri:
-
-$0 = -C_0 + \sum \frac{C_t}{(1 + r)^t}$
+$$
+0 = -C_0 + \sum \left[ \frac{C_t}{(1 + r)^t} \right]
+$$
 
 **Otonom Ekipman Maliyet Tasarrufu:**
 
-Maliyet Tasarrufu = (Geleneksel İşçilik Maliyeti - Otonom İşçilik Maliyeti) + (Geleneksel Yakıt Tüketimi - Otonom Yakıt Tüketimi) × Yakıt Fiyatı + (Geleneksel Bakım Maliyeti - Otonom Bakım Maliyeti)
+$$
+\text{Maliyet Tasarrufu} = (\text{Klasik İşçilik Maliyeti} - \text{Otonom İşçilik Maliyeti}) + (\text{Klasik Yakıt Tüketimi} - \text{Otonom Yakıt Tüketimi}) \times \text{Yakıt Fiyatı} + (\text{Klasik Bakım Maliyeti} - \text{Otonom Bakım Maliyeti})
+$$
 
 #### 3.2.2. Teknoloji Adaptasyonu Örneği
 
@@ -698,26 +749,25 @@ Tedarik zinciri yönetiminin optimizasyonu, hammadde ve sarf malzemelerinin mali
 
 #### 3.3.1. Tedarik Zinciri Yönetimi Formülleri
 
-**Ekonomik Sipariş Miktarı (ESM):**
+**Ekonomik Sipariş Miktarı (EOQ):**
 
-$ESM = \sqrt{\frac{2 \times \text{Yıllık Talep} \times \text{Sipariş Maliyeti}}{\text{Birim Stoklama Maliyeti}}}$
+$$
+\mathrm{EOQ} = \sqrt{\frac{2 \times \text{Yıllık Talep} \times \text{Sipariş Maliyeti}}{\text{Birim Stoklama Maliyeti}}}
+$$
 
 **Toplam Tedarik Zinciri Maliyeti:**
 
-Toplam Maliyet = Satın Alma Maliyeti + Sipariş Maliyeti + Stoklama Maliyeti + Stoksuz Kalma Maliyeti
+$$
+\text{Toplam Maliyet} = \text{Satın Alma Maliyeti} + \text{Sipariş Maliyeti} + \text{Stoklama Maliyeti} + \text{Stoksuzluk Maliyeti}
+$$
 
-Burada:
+**Tedarikçi Seçim Skoru:**
 
--   Satın Alma Maliyeti = Birim Fiyat × Yıllık Talep
--   Sipariş Maliyeti = Sipariş Başına Maliyet × (Yıllık Talep / Sipariş Miktarı)
--   Stoklama Maliyeti = Birim Stoklama Maliyeti × (Ortalama Envanter)
--   Stoksuz Kalma Maliyeti = Birim Stoksuz Kalma Maliyeti × Stoksuz Kalma Olasılığı × Yıllık Talep
+$$
+\text{Tedarikçi Skoru} = w_1 \times \text{Fiyat Skoru} + w_2 \times \text{Kalite Skoru} + w_3 \times \text{Teslimat Skoru} + w_4 \times \text{Esneklik Skoru}
+$$
 
-**Tedarikçi Seçim Puanı:**
-
-Tedarikçi Puanı = $w_1 \times$ Fiyat Puanı + $w_2 \times$ Kalite Puanı + $w_3 \times$ Teslimat Puanı + $w_4 \times$ Esneklik Puanı
-
-Burada $w_1, w_2, w_3, w_4$ ağırlık faktörleridir ve toplamları 1'e eşittir.
+Burada $w_1, w_2, w_3, w_4$ ağırlık faktörlerdir ve toplamları 1'e eşittir.
 
 #### 3.3.2. Tedarik Zinciri Yönetimi Örneği
 
@@ -782,25 +832,35 @@ Ekipmanların düzenli bakımı, arızaları önleyerek ve onarım maliyetlerini
 
 #### 3.4.1. Etkin Bakım Programları Formülleri
 
-**Ekipman Kullanılabilirliği (Availability):**
+**Ekipman Kullanılabilirliği:**
 
-Kullanılabilirlik = $\frac{\text{Çalışma Süresi}}{(\text{Çalışma Süresi} + \text{Duruş Süresi})}$
+$$
+\text{Kullanılabilirlik} = \frac{\text{Çalışma Süresi}}{\text{Çalışma Süresi} + \text{Arıza Süresi}}
+$$
 
-**Arızalar Arası Ortalama Süre (MTBF - Mean Time Between Failures):**
+**Arızalar Arası Ortalama Süre (MTBF):**
 
-MTBF = $\frac{\text{Toplam Çalışma Süresi}}{\text{Arıza Sayısı}}$
+$$
+\mathrm{MTBF} = \frac{\text{Toplam Çalışma Süresi}}{\text{Arıza Sayısı}}
+$$
 
-**Ortalama Tamir Süresi (MTTR - Mean Time To Repair):**
+**Onarım İçin Ortalama Süre (MTTR):**
 
-MTTR = $\frac{\text{Toplam Duruş Süresi}}{\text{Arıza Sayısı}}$
+$$
+\mathrm{MTTR} = \frac{\text{Toplam Arıza Süresi}}{\text{Arıza Sayısı}}
+$$
 
-**Bakım Maliyeti Oranı:**
+**Bakım Maliyet Oranı:**
 
-Bakım Maliyeti Oranı = $\frac{\text{Toplam Bakım Maliyeti}}{\text{Ekipman Değeri}}$
+$$
+\text{Bakım Maliyet Oranı} = \frac{\text{Toplam Bakım Maliyeti}}{\text{Ekipman Değeri}}
+$$
 
-**Önleyici Bakım Uyum Oranı:**
+**Planlı Bakım Uyum Oranı:**
 
-Önleyici Bakım Uyum Oranı = $\frac{\text{Önleyici Bakım Süresi}}{(\text{Önleyici Bakım Süresi} + \text{Düzeltici Bakım Süresi})}$
+$$
+\text{Planlı Bakım Uyum Oranı} = \frac{\text{Planlı Bakım Süresi}}{\text{Planlı Bakım Süresi} + \text{Düzeltici Bakım Süresi}}
+$$
 
 #### 3.4.2. Etkin Bakım Programları Örneği
 
@@ -839,9 +899,9 @@ Bir açık ocak madeni için bir ekskavatör bakım programını analiz edelim:
     Toplam Bakım Maliyeti = $300.000 \$ + 700.000 \$ = 1.000.000 \$$
     Bakım Maliyeti Oranı = $\frac{1.000.000 \$}{5.000.000 \$} = 0,20$ (veya %20)
 
-5.  **Önleyici Bakım Uyum Oranı:**
+5.  **Planlı Bakım Uyum Oranı:**
 
-    Önleyici Bakım Uyum Oranı = $\frac{500 \text{ saat}}{(500 \text{ saat} + 1.000 \text{ saat})} = 0,33$ (veya %33)
+    Planlı Bakım Uyum Oranı = $\frac{500 \text{ saat}}{(500 \text{ saat} + 1.000 \text{ saat})} = 0,33$ (veya %33)
 
 6.  **Kestirimci Bakım Programı Uygulamanın Etkisi:**
 
@@ -881,7 +941,7 @@ BHP, Avustralya'daki demir cevheri operasyonlarında otonom kamyonlar ve dronlar
 
 Rio Tinto, bir diğer büyük madencilik şirketidir. Şirket, "Rio Tinto Yolu" olarak bilinen bir maliyet yönetimi programı uygulamıştır. Bu program, maliyet bilincini teşvik etmeye ve her seviyedeki çalışanları maliyet tasarrufu bulmaya teşvik etmeye odaklanmaktadır.
 
-Rio Tinto, Avustralya'daki Pilbara demir cevheri operasyonlarında "Akıllı Madencilik" programını uygulamıştır. Bu program, otonom kamyonlar, dronlar ve uzaktan kumandalı sondaj makineleri gibi teknolojileri içermektedir. Bu teknolojiler, işçilik maliyetlerini düşürmüş ve verimliliği artırmıştır.
+Rio Tinto, Avustralya'daki Pilbara demir cevheri operasyonlarında "Akıllı Madencılık" programını uygulamıştır. Bu program, otonom kamyonlar, dronlar ve uzaktan kumandalı sondaj makineleri gibi teknolojileri içermektedir. Bu teknolojiler, işçilik maliyetlerini düşürmüş ve verimliliği artırmıştır.
 
 ### 4.2. Sektör Kıyaslamaları
 
