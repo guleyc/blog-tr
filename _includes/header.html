@@ -110,7 +110,9 @@
         
         <!-- Language Alternatives -->
         <link rel="alternate" hreflang="tr-TR" href="https://guley.com.tr{{ page.url }}" />
-        <link rel="alternate" hreflang="en-AU" href="https://guley.com.au{{ page.url }}" />
+        {% if page.en_url %}
+        <link rel="alternate" hreflang="en-AU" href="https://guley.com.au{{ page.en_url }}" />
+        {% endif %}
         <link rel="alternate" hreflang="x-default" href="https://guley.com.tr{{ page.url }}" />
 
         <!-- RSS and Feed Links -->
