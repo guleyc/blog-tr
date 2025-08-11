@@ -1,7 +1,7 @@
 ---
 title: 'JORC Kodu: Arama Sondajından Cevher Rezervi Beyanına'
 date: '2025-05-06'
-author: 'Cagatay Guley'
+author: 'Çağatay Güley'
 layout: post
 permalink: /jorc-kodu-arama-sondajindan-cevher-rezervi-beyanina/
 en_url: /the-jorc-code-from-exploration-drilling-to-ore-reserve-declaration/

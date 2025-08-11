@@ -1,7 +1,7 @@
 ---
 title: "Açık Ocak Madenciliğinde Patlatma Tasarımı ve Optimizasyonu"
 date: '2025-04-21'
-author: Cagatay Guley
+author: 'Çağatay Güley'
 layout: post
 permalink: /acik-ocak-madenciliginde-patlatma-tasarimi-ve-optimizasyonu/
 en_url: /blast-design-and-optimization-in-open-pit-mining/

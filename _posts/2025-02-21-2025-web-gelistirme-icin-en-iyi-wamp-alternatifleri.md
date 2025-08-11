@@ -1,7 +1,7 @@
 ---
 title: '2025 Yılında Web Geliştirme İçin En İyi WAMP Alternatifleri'
 date: '2025-02-21'
-author: 'Cagatay Guley'
+author: 'Çağatay Güley'
 layout: post
 permalink: /2025-web-gelistirme-icin-en-iyi-wamp-alternatifleri/
 en_url: /best-wamp-alternatives-for-web-development-in-2025/

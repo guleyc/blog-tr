@@ -1,7 +1,7 @@
 ---
 title: 'Karbon Kredileri ve Karbon Ayak İzi Rehberi'
 date: '2023-08-30'
-author: 'Cagatay Guley'
+author: 'Çağatay Güley'
 layout: post
 permalink: /karbon-kredileri-ve-karbon-ayak-izi-rehberi/
 en_url: /carbon-credits-and-carbon-footprints-guide/

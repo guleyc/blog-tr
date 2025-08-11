@@ -1,7 +1,7 @@
 ---
 title: "Çakıldan Gigabayta: Madenciliğin Dört Devriminin İzinde"
 date: '2025-07-01'
-author: Cagatay Guley
+author: 'Çağatay Güley'
 layout: post
 permalink: /cakildan-gigabayta/
 en_url: /from-grit-to-gigabytes/

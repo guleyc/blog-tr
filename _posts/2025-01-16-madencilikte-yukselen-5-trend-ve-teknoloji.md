@@ -1,7 +1,7 @@
 ---
 title: 'Madencilik Mühendisliğinde Yükselen 5 Trend ve Teknoloji'
 date: '2025-01-16'
-author: 'Cagatay Guley'
+author: 'Çağatay Güley'
 layout: post
 permalink: /madencilikte-yukselen-5-trend-ve-teknoloji/
 en_url: /emerging-5-trends-and-technologies-in-mining-engineering/

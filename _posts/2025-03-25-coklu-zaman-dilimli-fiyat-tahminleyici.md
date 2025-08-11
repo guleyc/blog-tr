@@ -1,7 +1,7 @@
 ---
 title: 'Çoklu Zaman Dilimli Fiyat Tahminleyici'
 date: '2025-03-25'
-author: 'Cagatay Guley'
+author: 'Çağatay Güley'
 layout: post
 permalink: /coklu-zaman-dilimli-fiyat-tahminleyici/
 en_url: /multi-timeframe-price-predictor/

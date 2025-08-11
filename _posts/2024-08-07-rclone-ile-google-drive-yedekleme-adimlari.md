@@ -1,7 +1,7 @@
 ---
 title: 'Rclone ile Google Drive Yedekleme Adımları'
 date: '2024-08-07'
-author: 'Cagatay Guley'
+author: 'Çağatay Güley'
 layout: post
 permalink: /rclone-ile-google-drive-yedekleme-adimlari/
 en_url: /easy-steps-to-backup-with-rclone-on-google-drive/

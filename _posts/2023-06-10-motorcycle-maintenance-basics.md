@@ -1,7 +1,7 @@
 ---
 title: 'Motorcycle Maintenance Basics'
 date: '2023-06-10'
-author: 'Cagatay Guley'
+author: 'Çağatay Güley'
 layout: post
 permalink: /motorcycle-maintenance-basics/
 en_url: /motorcycle-maintenance-basics/

@@ -1,7 +1,7 @@
 ---
 title: 'Hidrolik Pompa Hesaplamaları ve Performans Kriterleri'
 date: '2024-07-23'
-author: 'Cagatay Guley'
+author: 'Çağatay Güley'
 layout: post
 permalink: /hidrolik-pompa-hesaplamalari-ve-performans-kriterleri/
 en_url: /comprehensive-guide-to-hydraulic-pump-calculations-and-performance-metrics/

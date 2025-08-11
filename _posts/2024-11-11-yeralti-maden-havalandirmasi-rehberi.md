@@ -1,7 +1,7 @@
 ---
 title: "Yeraltı Maden Havalandırması Rehberi"
 date: '2024-11-11'
-author: 'Cagatay Guley'
+author: 'Çağatay Güley'
 layout: post
 permalink: /yeralti-maden-havalandirmasi-rehberi/
 en_url: /a-mining-engineers-guide-to-underground-mine-ventilation/

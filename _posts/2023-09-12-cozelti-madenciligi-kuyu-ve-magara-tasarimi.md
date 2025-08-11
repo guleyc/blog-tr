@@ -1,7 +1,7 @@
 ---
 title: 'Çözelti Madenciliği: Kuyu ve Mağara Tasarımı'
 date: '2023-09-12'
-author: 'Cagatay Guley'
+author: 'Çağatay Güley'
 layout: post
 permalink: /cozelti-madenciligi-kuyu-ve-magara-tasarimi/
 en_url: /solution-mining-well-and-cavern-design/
