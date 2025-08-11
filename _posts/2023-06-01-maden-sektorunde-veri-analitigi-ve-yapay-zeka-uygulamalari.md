@@ -4,6 +4,7 @@ date: '2023-06-01'
 author: 'Çağatay Güley'
 layout: post
 permalink: /maden-sektorunde-veri-analitigi-ve-yapay-zeka-uygulamalari/
+en_url: /applications-of-data-analytics-and-artificial-intelligence-in-the-mining-sector/
 redirect_from:
   - /applications-of-data-analytics-and-artificial-intelligence-in-the-mining-sector
   - /applications-of-data-analytics-and-artificial-intelligence-in-the-mining-sector/

@@ -4,6 +4,7 @@ date: '2022-05-03'
 author: 'Çağatay Güley'
 layout: post
 permalink: /zaman-serisi-analizi/
+en_url: /time-series-analysis/
 redirect_from:
   - /time-series-analysis
   - /time-series-analysis/

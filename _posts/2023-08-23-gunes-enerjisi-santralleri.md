@@ -4,6 +4,7 @@ date: '2023-08-23'
 author: 'Çağatay Güley'
 layout: post
 permalink: /gunes-enerjisi-santralleri/
+en_url: /solar-power-plants/
 redirect_from:
   - /solar-power-plants
   - /gunes-enerjisi-santralleri

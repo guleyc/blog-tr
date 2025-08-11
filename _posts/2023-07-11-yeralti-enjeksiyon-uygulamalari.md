@@ -4,6 +4,7 @@ date: '2023-07-11'
 author: 'Çağatay Güley'
 layout: post
 permalink: /yeralti-enjeksiyon-uygulamalari/
+en_url: /injection-works-in-underground-openings/
 redirect_from:
   - /injection-works-in-underground-openings
   - /injection-works-in-underground-openings/

@@ -4,6 +4,7 @@ date: '2020-06-01'
 author: 'Çağatay Güley'
 layout: post
 permalink: /plesk-panelde-yandex-mail-ile-smtp-hatasi-nasil-cozulur/
+en_url: /how-to-resolve-smtp-error-in-plesk-panel-with-yandex-mail/
 redirect_from:
   - /how-to-resolve-smtp-error-in-plesk-panel-with-yandex-mail
   - /how-to-resolve-smtp-error-in-plesk-panel-with-yandex-mail/

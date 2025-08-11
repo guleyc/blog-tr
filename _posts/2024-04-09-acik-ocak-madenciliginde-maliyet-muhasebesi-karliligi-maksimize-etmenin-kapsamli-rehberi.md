@@ -4,6 +4,7 @@ date: '2024-04-09'
 author: 'Cagatay Guley'
 layout: post
 permalink: /acik-ocak-madenciliginde-maliyet-muhasebesi-karliligi-maksimize-etmenin-kapsamli-rehberi/
+en_url: /open-pit-mining-cost-accounting-the-complete-guide-to-maximizing-profitability/
 redirect_from:
   - /acik-ocak-madenciliginde-maliyet-muhasebesi-karliligi-maksimize-etmenin-kapsamli-rehberi
   - /open-pit-mining-cost-accounting-the-complete-guide-to-maximizing-profitability/

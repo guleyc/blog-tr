@@ -4,6 +4,7 @@ date: '2024-07-23'
 author: 'Cagatay Guley'
 layout: post
 permalink: /hidrolik-pompa-hesaplamalari-ve-performans-kriterleri/
+en_url: /comprehensive-guide-to-hydraulic-pump-calculations-and-performance-metrics/
 redirect_from:
   - /hidrolik-pompa-hesaplamalari-ve-performans-kriterleri
   - /comprehensive-guide-to-hydraulic-pump-calculations-and-performance-metrics

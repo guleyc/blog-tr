@@ -4,6 +4,7 @@ date: '2023-09-12'
 author: 'Cagatay Guley'
 layout: post
 permalink: /cozelti-madenciligi-kuyu-ve-magara-tasarimi/
+en_url: /solution-mining-well-and-cavern-design/
 redirect_from:
   - /cozelti-madenciligi-kuyu-ve-magara-tasarimi
   - /solution-mining-well-and-cavern-design/

@@ -4,6 +4,7 @@ date: '2023-05-26'
 author: 'Çağatay Güley'
 layout: post
 permalink: /kalsiyum-aluminat-cimentolari/
+en_url: /calcium-aluminate-cements-cacs/
 redirect_from:
   - /kalsiyum-aluminat-cimentolari
   - /calcium-aluminate-cements-cacs/
