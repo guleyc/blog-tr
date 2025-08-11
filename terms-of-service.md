@@ -10,8 +10,6 @@ redirect_from:
 author: Çağatay Güley
 ---
 
-# Kullanım Şartları
-
 **Son güncelleme: {{ site.time | date: "%d.%m.%Y" }}**
 
 Bu kullanım şartları, **{{ site.title }}** web sitesinin ({{ site.url }}) kullanımına ilişkin koşulları belirler.
