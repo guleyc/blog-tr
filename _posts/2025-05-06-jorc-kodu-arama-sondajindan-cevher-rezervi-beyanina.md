@@ -4,6 +4,7 @@ date: '2025-05-06'
 author: 'Cagatay Guley'
 layout: post
 permalink: /jorc-kodu-arama-sondajindan-cevher-rezervi-beyanina/
+en_url: /the-jorc-code-from-exploration-drilling-to-ore-reserve-declaration/
 redirect_from:
   - /the-jorc-code-from-exploration-drilling-to-ore-reserve-declaration/
   - /the-jorc-code-from-exploration-drilling-to-ore-reserve-declaration

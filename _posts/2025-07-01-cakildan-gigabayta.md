@@ -4,6 +4,7 @@ date: '2025-07-01'
 author: Cagatay Guley
 layout: post
 permalink: /cakildan-gigabayta/
+en_url: /from-grit-to-gigabytes/
 redirect_from:
   - /from-grit-to-gigabytes
   - /from-grit-to-gigabytes/
