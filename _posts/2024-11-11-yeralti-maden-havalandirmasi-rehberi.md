@@ -9,7 +9,6 @@ redirect_from:
   - /yeralti-maden-havalandirmasi-rehberi
   - /a-mining-engineers-guide-to-underground-mine-ventilation/
   - /a-mining-engineers-guide-to-underground-mine-ventilation
-categories: [maden]
 tags: [madencilik, muhendis, rehber, yeralti, maden, havalandirma]
 mathjax: true
 image: ventilation.jpg

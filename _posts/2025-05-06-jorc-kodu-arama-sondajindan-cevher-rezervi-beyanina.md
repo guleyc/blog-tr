@@ -8,8 +8,7 @@ en_url: /the-jorc-code-from-exploration-drilling-to-ore-reserve-declaration/
 redirect_from:
   - /the-jorc-code-from-exploration-drilling-to-ore-reserve-declaration/
   - /the-jorc-code-from-exploration-drilling-to-ore-reserve-declaration
-categories: [maden]
-tags: [JORC, Kod, Arama, Sondaj, Cevher Rezervi, Beyan]
+tags: [JORC, Kod, Arama, Sondaj, Cevher Rezervi, Beyan, maden]
 image: jorc.jpg
 mathjax: true
 ---

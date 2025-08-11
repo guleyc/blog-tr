@@ -7,7 +7,6 @@ permalink: /inverse-fisher-transform-indicators-with-macd-v6/
 en_url: /inverse-fisher-transform-indicators-with-macd-v6/
 redirect_from:
   - /inverse-fisher-transform-indicators-with-macd-v6
-categories: [muhendislik]
 tags: [inverse, fisher, transform, gostergeler, macd]
 image: macd.png
 mathjax: true

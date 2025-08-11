@@ -9,7 +9,6 @@ redirect_from:
   - /types-of-support-systems-in-underground-mines
   - /yeralti-madenlerinde-tahkimat-sistemleri
   - /types-of-support-systems-in-underground-mines/
-categories: [maden]
 tags: [destek, sistemler, tahkimat, yeralti, maden]
 image: shotcrete.jpg
 mathjax: true

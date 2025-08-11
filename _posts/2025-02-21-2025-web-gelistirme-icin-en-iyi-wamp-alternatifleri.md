@@ -8,8 +8,7 @@ en_url: /best-wamp-alternatives-for-web-development-in-2025/
 redirect_from:
   - /best-wamp-alternatives-for-web-development-in-2025/
   - /best-wamp-alternatives-for-web-development-in-2025
-categories: [web]
-tags: [wamp, xampp, mamp, lamp, laragon, easyphp, openserver, web, geliştirme, apache, mysql, php, windows]
+tags: [wamp, xampp, mamp, lamp, laragon, easyphp, openserver, web, gelistirme, apache, mysql, php, windows]
 image: close-up-code.jpg
 ---
 

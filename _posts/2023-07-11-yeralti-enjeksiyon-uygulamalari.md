@@ -9,8 +9,7 @@ redirect_from:
   - /injection-works-in-underground-openings
   - /injection-works-in-underground-openings/
   - /yeralti-enjeksiyon-uygulamalari
-categories: [maden]
-tags: [enjeksiyon, uygulamalar, yeralti]
+tags: [enjeksiyon, uygulamalar, yeralti, maden]
 image: injection.jpg
 mathjax: true
 ---

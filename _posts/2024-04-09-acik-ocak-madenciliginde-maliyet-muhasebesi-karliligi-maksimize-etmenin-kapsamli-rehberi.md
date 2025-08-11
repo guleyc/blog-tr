@@ -9,8 +9,7 @@ redirect_from:
   - /acik-ocak-madenciliginde-maliyet-muhasebesi-karliligi-maksimize-etmenin-kapsamli-rehberi
   - /open-pit-mining-cost-accounting-the-complete-guide-to-maximizing-profitability/
   - /open-pit-mining-cost-accounting-the-complete-guide-to-maximizing-profitability
-categories: [maden]
-tags: [acikocak, madencilik, maliyet, muhasebe, karlilik, rehber]
+tags: [acikocak, maden, maliyet, muhasebe, karlilik, rehber]
 image: cost-accounting.webp
 mathjax: true
 ---

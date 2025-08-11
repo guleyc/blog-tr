@@ -9,7 +9,6 @@ redirect_from:
   - /data-analysis-with-python/
   - /data-analysis-with-python
   - /python-ile-veri-analizi
-categories: [muhendislik]
 tags: [veri, analiz, python, veri bilimi, makine ogrenmesi, istatistik, gorsellestirme, modelleme]
 image: python.jpg
 

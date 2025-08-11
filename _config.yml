@@ -88,8 +88,6 @@ relative_links:
 jekyll-archives:
   enabled:
     - tags
-    - categories
   layout: archive
   permalinks:
     tag: /tag/:name/
-    category: /category/:name/

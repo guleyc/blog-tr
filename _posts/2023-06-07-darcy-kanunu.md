@@ -9,7 +9,6 @@ redirect_from:
   - /darcys-law
   - /darcys-law/
   - /darcy-kanunu
-categories: [muhendislik]
 tags: [darcy, kanunu, muhendislik, matematik, fizik]
 image: darcy.png
 mathjax: true

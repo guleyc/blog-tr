@@ -8,8 +8,7 @@ en_url: /emerging-5-trends-and-technologies-in-mining-engineering/
 redirect_from:
   - /emerging-5-trends-and-technologies-in-mining-engineering/
   - /emerging-5-trends-and-technologies-in-mining-engineering
-categories: [maden]
-tags: [madencilik, muhendis, dijital donusum, muhendislikten teknolojiye, uzaktan calisma, dijital beceriler, veri odakli kararlar]
+tags: [maden, muhendis, dijital donusum, muhendislikten teknolojiye, uzaktan calisma, dijital beceriler, veri odakli kararlar]
 image: hardhat.jpg
 ---
 

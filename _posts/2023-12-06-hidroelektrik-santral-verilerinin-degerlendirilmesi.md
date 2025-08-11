@@ -9,7 +9,6 @@ redirect_from:
   - /hidroelektrik-santral-verilerinin-degerlendirilmesi
   - /assessment-of-hydroelectric-power-plant-reservoir-data-for-energy-production-purposes
   - /assessment-of-hydroelectric-power-plant-reservoir-data-for-energy-production-purposes/
-categories: [enerji]
 tags: [hidroelektrik, santral, baraj, veri, degerlendirme, enerji, uretim]
 image: hydro.jpg
 mathjax: true

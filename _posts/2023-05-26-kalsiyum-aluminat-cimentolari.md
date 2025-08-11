@@ -9,9 +9,8 @@ redirect_from:
   - /kalsiyum-aluminat-cimentolari
   - /calcium-aluminate-cements-cacs/
   - /calcium-aluminate-cements-cacs
-categories: [maden]
 image: cac.jpg
-tags: [kalsiyum, aluminat, cimento]
+tags: [kalsiyum, aluminat, cimento, maden, kalker]
 ---
 
 Kalsiyum alüminat çimentoları (CACs), esas olarak kalsiyum alüminatlardan oluşan bir tür hidrolik çimentodur. Bu çimentolar, hızlı priz alma ve yüksek sıcaklık dayanımı özellikleriyle bilinir ve bu sayede inşaat sektöründe çeşitli uygulamalar için uygundur. CAC üretim süreci, hammadde kullanımını içerir ve burada temel bileşenlerden biri boksittir.

@@ -9,7 +9,6 @@ redirect_from:
   - /solar-power-plants
   - /gunes-enerjisi-santralleri
   - /solar-power-plants/
-categories: [enerji]
 tags: [gunes, enerji, panel, pv modul, inverter, trafo]
 image: solar.jpg
 ---

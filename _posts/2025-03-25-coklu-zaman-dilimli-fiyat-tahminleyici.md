@@ -8,7 +8,6 @@ en_url: /multi-timeframe-price-predictor/
 redirect_from:
   - /multi-timeframe-price-predictor
   - /multi-timeframe-price-predictor/
-categories: [muhendislik]
 tags: [fiyat, tahmin, indikator, binance, kripto]
 image: crypto-asset.png
 ---

@@ -9,8 +9,7 @@ redirect_from:
   - /applications-of-data-analytics-and-artificial-intelligence-in-the-mining-sector
   - /applications-of-data-analytics-and-artificial-intelligence-in-the-mining-sector/
   - /maden-sektorunde-veri-analitigi-ve-yapay-zeka-uygulamalari
-categories: [maden]
-tags: [uygulamalar, veri, analitik, yapay, zeka, madencilik]
+tags: [uygulamalar, veri, analitik, yapay, zeka, maden]
 image: ai-mining.jpg
 ---
 

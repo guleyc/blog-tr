@@ -9,7 +9,6 @@ redirect_from:
   - /cozelti-madenciligi-kuyu-ve-magara-tasarimi
   - /solution-mining-well-and-cavern-design/
   - /solution-mining-well-and-cavern-design
-categories: [maden]
 tags: [solusyon, maden, kuyu, magara, cavern, tasarim]
 image: salt.jpg
 mathjax: true

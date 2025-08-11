@@ -9,7 +9,6 @@ redirect_from:
   - /time-series-analysis
   - /time-series-analysis/
   - /zaman-serisi-analizi
-categories: [muhendislik]
 tags: [zaman, seri, analiz, tahmin, regresyon]
 mathjax: true
 image: time-series.jpg 

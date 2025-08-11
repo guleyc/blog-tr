@@ -8,8 +8,7 @@ en_url: /blast-design-and-optimization-in-open-pit-mining/
 redirect_from:
   - /blast-design-and-optimization-in-open-pit-mining
   - /blast-design-and-optimization-in-open-pit-mining/
-categories: [maden]
-tags: [patlatma, tasarim, acikocak, madencilik]
+tags: [patlatma, tasarim, acikocak, maden]
 image: blast.webp
 ---
 

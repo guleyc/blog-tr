@@ -9,7 +9,6 @@ redirect_from:
   - /hidrolik-pompa-hesaplamalari-ve-performans-kriterleri
   - /comprehensive-guide-to-hydraulic-pump-calculations-and-performance-metrics
   - /comprehensive-guide-to-hydraulic-pump-calculations-and-performance-metrics/
-categories: [enerji]
 mathjax: true
 tags: [enerji, hidrolik, pompalar, makineler, guc, verimlilik, rehber]
 image: hydraulic.jpg

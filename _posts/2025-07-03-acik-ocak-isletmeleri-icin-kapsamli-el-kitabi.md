@@ -8,7 +8,6 @@ en_url: /comprehensive-technical-handbook-for-open-pit-mining-engineers/
 redirect_from:
   - /comprehensive-technical-handbook-for-open-pit-mining-engineers
   - /comprehensive-technical-handbook-for-open-pit-mining-engineers/
-categories: [maden]
 mathjax: true
 tags: [acikocak, maden, muhendis, el kitabi]
 image: openpit.jpg
