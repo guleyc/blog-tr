@@ -10,8 +10,6 @@ redirect_from:
 author: Çağatay Güley
 ---
 
-# Gizlilik Politikası
-
 **Son güncelleme: {{ site.time | date: "%d.%m.%Y" }}**
 
 Bu gizlilik politikası, **{{ site.title }}** web sitesinin ({{ site.url }}) gizlilik uygulamalarını açıklamaktadır.
