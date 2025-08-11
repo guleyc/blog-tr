@@ -1,8 +1,9 @@
 ---
 layout: default
-title: Tag Wall
+title: Etiket Duvarı
 description: "Explore all topics on the site with this interactive tag wall. Discover articles and posts easily through a visual cloud of tags, sorted and sized by popularity, to quickly navigate to your areas of interest."
 permalink: /tags/
+en_url: /tags/
 ---
 
 <div class="tag-wall-container">

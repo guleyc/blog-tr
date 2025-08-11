@@ -2,11 +2,12 @@
 layout: page
 title: "Hakkımda"
 permalink: /hakkimda/
+en_url: /about/
 redirect_from:
  - /hakkimda
  - /about
  - /about/
-author: Cagatay Guley
+author: Çağatay Güley
 ---
 
 İstanbul Teknik Üniversitesi Maden Mühendisliği bölümü mezunuyum. Madencilik operasyonları ve ofis ortamındaki teknik görevler alanında yedi yılı aşkın deneyime sahibim. Madencilik değer zincirinin arama, planlama, üretim ve tasarım gibi tüm aşamalarında görev aldım; bu süreçte zaman zaman satış faaliyetlerine de katkıda bulundum.
