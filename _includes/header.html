@@ -106,23 +106,13 @@
         <link rel="apple-touch-icon" href="/assets/images/favicon.png">
 
         <!-- Canonical URLs and Language Alternatives -->
-                <link rel="canonical" href="https://guley.com.tr{{ page.url }}" />
+        <link rel="canonical" href="https://guley.com.tr{{ page.url }}" />
         
         <!-- Language Alternatives -->
-        {% if page.url == '/' %}
-            <!-- Ana sayfa için -->
-            <link rel="alternate" hreflang="tr-TR" href="https://guley.com.tr/" />
-            <link rel="alternate" hreflang="en-AU" href="https://guley.com.au/" />
-        {% else %}
-            <!-- Diğer sayfalar için -->
-            <link rel="alternate" hreflang="tr-TR" href="https://guley.com.tr{{ page.url }}" />
-            {% if page.en_url %}
-                <link rel="alternate" hreflang="en-AU" href="https://guley.com.au{{ page.en_url }}" />
-            {% endif %}
-        {% endif %}
-        
-        <!-- x-default için ana dil -->
-        <link rel="alternate" hreflang="x-default" href="https://guley.com.tr/" />
+        <link rel="alternate" hreflang="tr-TR" href="https://guley.com.tr{{ page.url }}" />
+        {% assign en_page_url = page.url | replace: '/tr/', '/en/' %}
+        <link rel="alternate" hreflang="en-AU" href="https://guley.com.au{{ en_page_url }}" />
+        <link rel="alternate" hreflang="x-default" href="https://guley.com.tr{{ page.url }}" />
 
         <!-- RSS and Feed Links -->
         <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.url }}{{ site.baseurl }}/atom.xml">
