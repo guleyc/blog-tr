@@ -1,15 +1,278 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Merhaba Dünya!</title>
+    <title>GULEY</title>
     <style>
-        body { font-family: sans-serif; text-align: center; margin-top: 50px; }
+        /* Page Styles */
+        body {
+            background-color: #34495e;
+            color: #ecf0f1;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            margin: 0 0 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .game-container {
+            display: flex;
+            align-items: flex-start;
+            gap: 40px;
+        }
+        
+        @media (max-width: 768px) {
+            .game-container {
+                flex-direction: column;
+                align-items: center;
+                gap: 20px;
+            }
+        }
+
+        .figure-container {
+            fill: transparent;
+            stroke: #ecf0f1;
+            stroke-width: 4px;
+            stroke-linecap: round;
+        }
+
+        .figure-part {
+            visibility: hidden;
+        }
+
+        .word-display {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+            min-height: 50px;
+        }
+
+        .letter {
+            border-bottom: 3px solid #f1c40f;
+            display: inline-flex;
+            font-size: 30px;
+            align-items: center;
+            justify-content: center;
+            margin: 0 3px;
+            height: 50px;
+            width: 30px;
+            text-transform: uppercase;
+        }
+        
+        .game-info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .keyboard {
+            margin-top: 30px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+            gap: 8px;
+            max-width: 600px;
+            width: 100%;
+        }
+
+        .key {
+            background-color: #2c3e50;
+            border: 2px solid #95a5a6;
+            border-radius: 5px;
+            color: #ecf0f1;
+            font-size: 1.2rem;
+            font-weight: bold;
+            padding: 10px;
+            cursor: pointer;
+            transition: background-color 0.2s, transform 0.2s;
+        }
+
+        .key:hover:not(:disabled) {
+            background-color: #3498db;
+            transform: scale(1.1);
+        }
+
+        .key:disabled {
+            background-color: #7f8c8d;
+            cursor: not-allowed;
+            opacity: 0.5;
+        }
+
+        .popup-container {
+            background-color: rgba(0, 0, 0, 0.5);
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            display: none; /* Başlangıçta gizli */
+            align-items: center;
+            justify-content: center;
+        }
+
+        .popup-container.show {
+            display: flex; /* Gösterilmesi için */
+        }
+
+        .popup {
+            background: #2c3e50;
+            border-radius: 10px;
+            box-shadow: 0 15px 25px rgba(0,0,0,0.4);
+            padding: 30px 40px;
+            text-align: center;
+            border: 2px solid #f1c40f;
+        }
+
+        .popup h2 {
+            margin-top: 0;
+        }
+
+        .popup button {
+            cursor: pointer;
+            background-color: #f1c40f;
+            color: #2c3e50;
+            border: 0;
+            margin-top: 20px;
+            padding: 12px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .popup button:hover {
+            opacity: 0.9;
+        }
     </style>
 </head>
 <body>
-    <h1>Hoş Geldiniz!</h1>
-    <p>Bu, GitHub Pages'te yayınlanan tek sayfalık bir HTML sitesidir.</p>
+
+    <h1>Under Construction</h1>
+    <p>It may never be completed. However, there are some things you can enjoy below.</p>
+
+    <div class="game-container">
+        <svg height="250" width="200" class="figure-container">
+            <line x1="60" y1="20" x2="140" y2="20" />
+            <line x1="140" y1="20" x2="140" y2="50" />
+            <line x1="60" y1="20" x2="60" y2="230" />
+            <line x1="20" y1="230" x2="100" y2="230" />
+
+            <circle cx="140" cy="70" r="20" class="figure-part" /> <line x1="140" y1="90" x2="140" y2="150" class="figure-part" /> <line x1="140" y1="120" x2="120" y2="100" class="figure-part" /> <line x1="140" y1="120" x2="160" y2="100" class="figure-part" /> <line x1="140" y1="150" x2="120" y2="180" class="figure-part" /> <line x1="140" y1="150" x2="160" y2="180" class="figure-part" /> </svg>
+
+        <div class="game-info">
+            <div class="word-display" id="word-display"></div>
+            <div class="keyboard" id="keyboard"></div>
+        </div>
+    </div>
+
+    <div class="popup-container" id="popup-container">
+        <div class="popup">
+            <h2 id="final-message"></h2>
+            <h3 id="revealed-word"></h3>
+            <button id="play-again">Play Again</button>
+        </div>
+    </div>
+
+    <script>
+        // DOM
+        const wordDisplay = document.getElementById('word-display');
+        const keyboardDiv = document.getElementById('keyboard');
+        const figureParts = document.querySelectorAll('.figure-part');
+        const popupContainer = document.getElementById('popup-container');
+        const finalMessage = document.getElementById('final-message');
+        const revealedWord = document.getElementById('revealed-word');
+        const playAgainBtn = document.getElementById('play-again');
+
+        // Words
+        const words = ['application', 'programming', 'interface', 'wizard', 'developer', 'javascript', 'australia', 'perth'];
+        let selectedWord = '';
+        const correctLetters = [];
+        const wrongLetters = [];
+
+        // Start Function
+        function startGame() {
+            selectedWord = words[Math.floor(Math.random() * words.length)];
+            correctLetters.length = 0;
+            wrongLetters.length = 0;
+            displayWord();
+            updateFigure();
+            createKeyboard();
+            popupContainer.classList.remove('show');
+        }
+
+        function displayWord() {
+            wordDisplay.innerHTML = `
+                ${selectedWord
+                    .split('')
+                    .map(letter => `
+                        <span class="letter">
+                            ${correctLetters.includes(letter) ? letter : ''}
+                        </span>
+                    `).join('')}
+            `;
+
+            const innerWord = wordDisplay.innerText.replace(/\n/g, '');
+            if (innerWord === selectedWord) {
+                finalMessage.innerText = 'Congratulations! You won! 😃';
+                revealedWord.innerText = '';
+                popupContainer.classList.add('show');
+            }
+        }
+        
+        function updateFigure() {
+            const mistakes = wrongLetters.length;
+            figureParts.forEach((part, index) => {
+                if (index < mistakes) {
+                    part.style.visibility = 'visible';
+                } else {
+                    part.style.visibility = 'hidden';
+                }
+            });
+
+            if (mistakes === figureParts.length) {
+                finalMessage.innerText = 'Unfortunately you lost. 😕';
+                revealedWord.innerText = `...the word was: ${selectedWord}`;
+                popupContainer.classList.add('show');
+            }
+        }
+
+        function createKeyboard() {
+            keyboardDiv.innerHTML = '';
+            'abcdefghijklmnopqrstuvwxyz'.split('').forEach(letter => {
+                const button = document.createElement('button');
+                button.innerText = letter;
+                button.className = 'key';
+                button.addEventListener('click', () => handleGuess(letter, button));
+                keyboardDiv.appendChild(button);
+            });
+        }
+        
+        function handleGuess(letter, button) {
+            if (selectedWord.includes(letter)) {
+                if (!correctLetters.includes(letter)) {
+                    correctLetters.push(letter);
+                    displayWord();
+                }
+            } else {
+                if (!wrongLetters.includes(letter)) {
+                    wrongLetters.push(letter);
+                    updateFigure();
+                }
+            }
+            button.disabled = true;
+        }
+        playAgainBtn.addEventListener('click', startGame);
+        startGame();
+
+    </script>
 </body>
 </html>
