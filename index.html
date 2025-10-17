@@ -351,7 +351,7 @@
             `;
 
             const innerWord = wordDisplay.innerText.replace(/\s/g, '');
-            if (innerWord.replace(/[^a-zA-Z]/g, '') === selectedWord.replace(/[^a-zA-Z]/g, '')) {
+			if (innerWord.replace(/[^a-zA-Z]/g, '').toLowerCase() === selectedWord.replace(/[^a-zA-Z]/g, '').toLowerCase()) {
                  setTimeout(() => {
                     finalMessage.innerText = 'Congratulations! You won! 😃';
                     revealedWord.innerText = `The word was: ${selectedWord}`;
