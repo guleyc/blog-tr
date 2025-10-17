@@ -374,6 +374,51 @@
 		<p>It may never be completed. However, there are some things you can enjoy below.</p>
     </div>
 
+    <div class="stats-bar">
+        <div class="stat-item">
+            <div class="stat-label">Score</div>
+            <div class="stat-value" id="score">0</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-label">Win Streak</div>
+            <div class="stat-value" id="streak">0</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-label">Best Streak</div>
+            <div class="stat-value" id="best-streak">0</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-label">Win Rate</div>
+            <div class="stat-value" id="win-rate">0%</div>
+        </div>
+    </div>
+
+    <div class="game-controls">
+        <div class="control-group">
+            <label>Category</label>
+            <select id="category-select">
+                <option value="all">All Categories</option>
+                <option value="animals">Animals</option>
+                <option value="countries">Countries</option>
+                <option value="movies">Movies</option>
+                <option value="technology">Technology</option>
+                <option value="food">Food</option>
+                <option value="sports">Sports</option>
+            </select>
+        </div>
+        <div class="control-group">
+            <label>Difficulty</label>
+            <select id="difficulty-select">
+                <option value="all">All Levels</option>
+                <option value="easy">Easy (4-6 letters)</option>
+                <option value="medium">Medium (7-9 letters)</option>
+                <option value="hard">Hard (10+ letters)</option>
+            </select>
+        </div>
+        <button id="new-game-btn">New Game</button>
+        <button id="reset-stats-btn">Reset Stats</button>
+    </div>
+
     <div class="game-container">
         <svg height="250" width="200" class="figure-container">
             <line x1="60" y1="20" x2="140" y2="20" />
